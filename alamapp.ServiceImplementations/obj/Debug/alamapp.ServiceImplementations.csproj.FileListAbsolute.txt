@@ -1,0 +1,1181 @@
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Services.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Services.pdb
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\02.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Services.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Services.pdb
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+C:\06.03.16\05.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\06.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+C:\10.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+C:\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\14.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\18.03.16\12.03.16\13.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\21.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\23.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\23.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\Dev\27.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+C:\28.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\29.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\Deve16\30.03.16\29.03.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+C:\19.05.16\NonHosted\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\MyApplication2016\NonHosted\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\1000\10.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\mscorlib.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normidna.nlp
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfc.nlp
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfd.nlp
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfkc.nlp
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfkd.nlp
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\3db\11.08.16\10.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\mscorlib.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normidna.nlp
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfc.nlp
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfd.nlp
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfkc.nlp
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\normnfkd.nlp
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\3db\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\3db\30.08.16\23.08.16\22.08.16\20.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\03.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\3db Update\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\3db Update\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\19.11.16\16.09.2016\08.09.16\07.09.16\31.08.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\22.12.16\alamapp\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\28.12.16\27.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\34.12.16\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\38.01.17\33.12.16\31.12.16\30.12.16\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+H:\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\52.1.17\52.01.17\48.01.17\47.01.17\46.01.17\45.01.17\43.01.17\42.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\56.01.17\56.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\58.01.17\56.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\59.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\72.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\3db Ecommerce\3dbApplication\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db Application\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\aDev\86.01.17\85.01.17\83.01.17\81.01.17\80.01.17\75.01.17\74.01.17\73.01.17\71.01.17\68.01.17\61.01.17\60.01.17\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+E:\aDev\3db\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+E:\aDev\3db\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+E:\aDev\3db\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+E:\aDev\3db\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+F:\Software Engineering\3db\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\3db 14.07.017\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\Customize 3db\3db 14.07.017\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\02.08.18\SBCB\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\SBCB\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+D:\aDev\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.ServiceImplementations.pdb
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\StructureMap.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Infrastructure.pdb
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Model.pdb
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\alamapp.Repositories.NH.pdb
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\AutoMapper.xml
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\NHibernate.xml
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\bin\Debug\Iesi.Collections.xml
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.csprojResolveAssemblyReference.cache
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.dll
+I:\Media\All My Software Zipped\SBCB update 04.09.18\SBCB update 04.09.18\3db\alamapp.ServiceImplementations\obj\Debug\alamapp.ServiceImplementations.pdb
