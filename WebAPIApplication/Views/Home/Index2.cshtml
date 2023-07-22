@@ -1,0 +1,506 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+@using Microsoft.AspNet.Identity
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Request.IsAuthenticated && User.IsInRole("Incomplete"))
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetRoleByUserId();
+        });
+
+        function GetRoleByUserId() {
+            var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+            $.ajax({
+                url: '/api/LocalUser/GetUserRole?userId=' + Identity,
+                type: 'GET',
+                cache: false,
+                async: true,
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    $.each(data, function (k, v) {
+                        if (v.RoleId == "9609be1e-9b7e-488d-ad07-8fa6c684d27b") {
+                            window.location.href = "/Home/ValidateAuth";
+                        }
+                    });
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+
+            });
+        }
+    </script>
+}
+else
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllBidByProductGroup();
+        });
+
+
+        function GetAllBidByProductGroup() {
+            $.ajax({
+                url: '/api/Bid/GetBidByProductGroup',
+                type: 'GET',
+                cache: false,
+                async: true,
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    $.each(data, function (i, v) {
+                        var list = "<ul class='list-group col-lg-3 col-md-5 col-xm-4 col-sm-6'><li class='list-group-item hidden'><span>" + '<img src="/Content/images/3dbimage/2.jpg" width="50" height="50" /><a href="/Home/BidByCriteria/' + v.ProductId + '">' + v.ProductName + "</a></span><span>(" + v.TotalBidByProduct + ")</span>"
+                        $('#holdByProduct').append(list);
+                    });
+
+                    //var showNumberOtItem = 4;
+                    //function loadMore() {
+                    //    var showlist = $("#holdByProduct .hidden").slice(0, showNumberOtItem).removeClass("hidden");
+                    //    var totalExpendList = showlist.length;
+                    //}
+                    //loadMore();
+
+                    //$("#btnLoadMoreProduct").on("click", loadMore);
+
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+
+            });
+        }
+    </script>
+
+}
+
+@*<script type="text/javascript">
+        function GetByCompanyUser() {
+            var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+            $.ajax({
+                url: '/api/Company/Get?userIdentityToken=' + Identity,
+                type: 'GET',
+                cache: false,
+                async: true,
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    alert(JSON.stringify(data.Companies));
+                    //$("#ddlcompany").setTemplate($("#companiesTemp").html());
+                    //$("#ddlcompany").processTemplate(data.Companies);
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+            });
+        }
+    </script>*@
+@*<script type="text/javascript">
+
+
+        //function CreateUser() {
+        //    var UserId = document.getElementById("getUserId").innerHTML;
+        //    var EamilId = document.getElementById("getUserEmail").innerHTML;
+
+        //    var jsonUser = {
+        //        UserIdentityToken: UserId.trim(),
+        //        Email: EamilId.trim(),
+        //    }
+
+        //    $.ajax({
+        //        url: '/api/LocalUser/Post',
+        //        type: 'POST',
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        data: JSON.stringify(jsonUser),
+        //        success: function () {
+        //            alert("User added successfully");
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+        //    });
+        //}
+        //function GetLocalUserByIdentity() {
+        //    var UserId = document.getElementById("getUserId").innerHTML;
+
+
+        //    $.ajax({
+        //        url: '/api/LocalUser/GetUserToken?userIdentity=' + UserId.trim(),
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            $("#CurrentUser").append(data);
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+
+        //}
+        //function CreateBid() {
+        //    $.ajax({
+        //        url: '/api/Bid/Post',
+        //        type: 'POST',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            alert("success");
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+        //    });
+        //}
+        //function GetTeam() {
+        //    $.ajax({
+        //        url: '/api/Bid/GetBidByProductGroup',
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            console.log(data);
+
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+        //    });
+        //}
+        ////function GetAllBidByProductGroup() {
+        ////    $.ajax({
+        ////        url: '/api/Bid/GetBidByProductGroup',
+        ////        type: 'GET',
+        ////        cache: false,
+        ////        async: true,
+        ////        dataType: 'json',
+        ////        contentType: 'application/json;charset-utf-8',
+        ////        success: function (data) {
+        ////            $.each(data, function (i, v) {
+        ////                var list = "<ul class='list-group col-lg-3 col-md-5 col-xm-4 col-sm-6'><li class='list-group-item hidden'><span>" + '<img src="/Content/images/3dbimage/2.jpg" width="50" height="50" /><a href="/Home/BidByCriteria/' + v.ProductId + '">' + v.ProductName + "</a></span><span>(" + v.TotalBidByProduct + ")</span>"
+        ////                $('#holdByProduct').append(list);
+        ////            });
+
+        ////            var showNumberOtItem = 8;
+        ////            function loadMore() {
+        ////                var showlist = $("#holdByProduct .hidden").slice(0, showNumberOtItem).removeClass("hidden");
+        ////                var totalExpendList = showlist.length;
+        ////            }
+        ////            loadMore();
+
+        ////            $("#btnLoadMoreProduct").on("click", loadMore);
+
+        ////        },
+        ////        error: function (r) {
+        ////            var jsonError = JSON.stringify(r);
+        ////            alert("error" + jsonError);
+        ////        }
+
+        ////    });
+        ////}
+        //function GetAllBidByGoodsTypeGroup() {
+        //    $.ajax({
+        //        url: '/api/Bid/GetBidByGoodsType',
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            $.each(data, function (i, v) {
+        //                var list = "<ul class='list-group col-lg-3 col-md-5 col-xm-4 col-sm-6'><li class='list-group-item hidden'><span>" + '<a href="/Home/BidByCriteria/' + v.GoodsTypeId + '">' + v.GoodsTypeName + "</a></span><span>(" + v.TotalBidByGoodsType + ")</span></li></ul>"
+        //                $('#holdByType').append(list);
+        //            });
+
+        //            var showNumberOtItem = 8;
+
+        //            function loadMore() {
+        //                var showlist = $("#holdByType .hidden").slice(0, showNumberOtItem).removeClass("hidden");
+        //                var totalExpendList = showlist.length;
+        //            }
+        //            loadMore();
+
+        //            $("#btnLoadMoreType").on("click", loadMore);
+
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+        //}
+    </script>*@
+
+
+@*<script type="text/javascript">
+        //$(document).ready(function () {
+        //    //GetAllRoles();
+        //    //GetRoleByRoleId();
+        //    //GetRoleByUserId();
+        //    GetAllBid();
+        //    CreateLocalUser();
+        //});
+
+        //function CreateLocalUser() {
+        //    $("#getUserId").hide();
+        //    var UserId = document.getElementById("getUserId").innerHTML;
+
+        //    $("#getUserEmail").hide();
+        //    var EamilId = document.getElementById("getUserEmail").innerHTML;
+
+        //    var jsonUser = {
+        //        Email: EamilId.trim(),
+        //        UserIdentityToken: UserId.trim()
+        //    }
+
+        //    $.ajax({
+        //        url: '/api/LocalUser/Post',
+        //        type: 'POST',
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        data: JSON.stringify(jsonUser),
+        //        success: function () {
+        //            alert("User added successfully");
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+        //    });
+        //}
+
+
+        //function GetAllCategory() {
+        //    showLoader('lg-Loader')
+        //    var Criteria = $("#txtSearchCriteria").val();
+        //    $.ajax({
+        //        url: '/api/Category/GetAllCategories?id=' + Criteria,
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            var myData = { categories: data };
+        //            // Render data jtemplate
+        //            $("#categoriesHtml").setTemplate($("#categoriesTemp").html());
+        //            $("#categoriesHtml").processTemplate(myData);
+        //            hideLoader('lg-Loader');
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+        //}
+        //function GetAllBid() {
+        //    $.ajax({
+        //        url: '/api/Bid/GetAll',
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            $.each(data, function (i, v) {
+        //                $.each(v, function (k, value) {
+        //                    var list = "<ul class='col-lg-3 col-md-5 col-xm-4 col-sm-6'><li class='hidden' >" + "<span>" + '<img src="/Content/images/3dbimage/2.jpg" /><br>' + value.ProductName + "</span> <br>" + "<span><b>Price</b>-" + value.Price + "</span><br>" + "<span><b>Amount</b>-" + value.Amount + "</span>"
+        //                    $('.hold').append(list);
+        //                });
+        //            });
+
+        //            var showNumberOtItem = 5;
+        //            function loadMore() {
+        //                var showlist = $(".hold .hidden").slice(0, showNumberOtItem).removeClass("hidden");
+        //                var totalExpendList = showlist.length;
+        //            }
+        //            loadMore();
+
+        //            $("#btnLoadMore").on("click", loadMore);
+
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+        //}
+        //function GetAllRoles() {
+
+        //    $.ajax({
+        //        url: '/api/LocalUser/GetAllRoles',
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            alert(JSON.stringify(data));
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+        //}
+        //function GetRoleByRoleId() {
+
+        //    $.ajax({
+        //        url: '/api/LocalUser/GetRole?roleId=bccf7870-e808-4cc7-979b-c41dafec4fcf',
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            alert(JSON.stringify(data));
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+
+        //}
+        //function GetRoleByUserId() {
+
+        //    $.ajax({
+        //        url: '/api/LocalUser/GetUserRole?userId=643f5a87-4e8b-4396-968e-de2447407693',
+        //        type: 'GET',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            alert(JSON.stringify(data));
+        //            ModifyRole(data);
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+
+        //    });
+        //}
+        //function CreateBid() {
+        //    $.ajax({
+        //        url: '/api/Bid/Post',
+        //        type: 'POST',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            alert("success");
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+        //    });
+        //}
+        //function ModifyUserRole() {
+        //    var jsonData = {
+        //        RoleId: 'd52f1046-aa2d-467a-970c-0a16263ef92b'
+        //    }
+        //    $.ajax({
+        //        url: '/api/LocalUser/Edit?userId=643f5a87-4e8b-4396-968e-de2447407693',
+        //        type: 'POST',
+        //        cache: false,
+        //        async: true,
+        //        dataType: 'json',
+        //        data: JSON.stringify(jsonData),
+        //        contentType: 'application/json;charset-utf-8',
+        //        success: function (data) {
+        //            alert("success");
+        //        },
+        //        error: function (r) {
+        //            var jsonError = JSON.stringify(r);
+        //            alert("error" + jsonError);
+        //        }
+        //    });
+        //}
+
+        ///*-----Start Utility-----*/
+        //function showLoader(idShowLoader) {
+        //    $("#" + idShowLoader).show();
+        //}
+        //function hideLoader(idHideLoader) {
+        //    $("#" + idHideLoader).hide();
+        //}
+    </script>*@
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+
+<div class="col-md-12">
+    @*<div class="row">
+            <h2><small>Tender By Types</small></h2>
+            <hr />
+            <div id="holdByType">
+            </div><br />
+            <hr />
+                <a href="#" id="btnLoadMoreType" class="btn btn-info">See more</a>
+                <hr />
+        </div>*@
+    <div class="row">
+        <h3>Search your products</h3>
+        <hr />
+        <div id="holdByProduct">
+        </div>
+        @*<br />
+        <hr />
+        <a href="#" id="btnLoadMoreProduct" class="btn btn-info">See more</a>
+        <hr />*@
+    </div>
+</div>
+
+
+@*<input type="button" id="btnLoadMore" value="Load More" />*@
+
+
+
+@*<a href="#" onclick="JavaScript: ModifyUserRole()" class="btn btn-danger">Modify</a>*@
+@*<a href="#" onclick="JavaSript: CreateBid()" class="btn btn-danger">Create Bid</a>*@
+
+
+
+@*<script type="text/html" id="bidsCategoryTemp">
+        {#foreach $T.bids as record}
+
+        <ul id="bidItems" class="list">
+            <li>
+                {$T.record.ProductName}
+            </li>
+        </ul>
+
+        {#/for}
+
+
+    </script>*@
+

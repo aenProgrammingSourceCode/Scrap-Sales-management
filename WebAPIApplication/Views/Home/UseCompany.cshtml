@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "UseCompany";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>UseCompany</h2>
+
+
+@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
+
+<br /><br />
+<script>
+    $(document).ready(function () {
+
+
+
+        $("ul#productUnit li").on('click', function () {
+            var ton = $(this).text();
+
+            var actualQuantity = parseFloat($("#txtQuantity").val());
+            var convertedQuantity = actualQuantity / 1000;
+            alert(actualQuantity)
+        });
+        // var t = $("#selectedUnit").text();
+
+        //alert(t);
+        // var actualQuantity = parseFloat($("#txtQuantity").val());
+        // var convertedQuantity = actualQuantity / 1000;
+        // //alert(convertedQuantity);
+
+
+    });
+    
+</script>
+
+<input type="text" class="form-control" id="txtQuantity">
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="selectedUnit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Kg
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" id="productUnit" aria-labelledby="dropdownMenu1">
+        <li><a href="#" data-value="Kg">Kg</a></li>
+        <li><a href="#" data-value="Ton">Ton</a></li>
+        <li><a href="#" data-value="Lot">Lot</a></li>
+        <li><a href="#" data-value="PCs">PCs</a></li>
+    </ul>
+</div>

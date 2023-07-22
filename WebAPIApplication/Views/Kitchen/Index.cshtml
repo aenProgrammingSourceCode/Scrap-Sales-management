@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@Html.DevExpress().Menu(settings =>
+{
+    settings.Name = "Menu";
+    settings.AllowSelectItem = false;
+    settings.Orientation = System.Web.UI.WebControls.Orientation.Horizontal;
+
+    settings.Items.Add(item =>
+    {
+        item.Text = "Item 0";
+        item.Items.Add(subItem =>
+        {
+            subItem.Text = "SubItem 0";
+            subItem.Items.Add("SubSubItem 0");
+            subItem.Items.Add("SubSubItem 1");
+        });
+        item.Items.Add("SubItem 1");
+    });
+    settings.Items.Add("Item 1");
+}).GetHtml()

@@ -1,0 +1,207 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using Microsoft.AspNet.Identity
+<script>
+    $(document).ready(function () {
+        var paths = window.location.pathname;
+        var pt = paths.length;
+        var Id = paths.substring(27, pt);
+        GetAppliedBid(Id);
+        //GetAllBidByCompanyUser(1);
+    });
+
+    function GetAllBidByCompanyUser(CurrentPage) {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+        //var jsonData = {
+        //    UserIdentity: Identity
+        //}
+        $.ajax({
+            url: '/api/Bid/GetApplyToBidByBidGroup',
+            type: 'Get',
+            cache: false,
+            async: true,
+            //data: JSON.stringify(jsonData),
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                //alert(JSON.stringify(data));
+                $("#bidsHtml").setTemplate($("#bidsTemp").html());
+                $("#bidsHtml").processTemplate(data);
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function GetAppliedBid(bidId) {
+        $.ajax({
+            url: '/api/Bid/GetAllAppliedBidList?bidId=' + bidId,
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $("#appliedBidsHtml").setTemplate($("#appliedBidsTemp").html());
+                $("#appliedBidsHtml").processTemplate(data.ApplyToBids);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+    function SoldBid(appliedBidId) {
+        var jsonBidRequest = {
+            Msg: "Contact with our company"
+        }
+        $.ajax({
+            url: '/api/Bid/ModifyAppliedBidByCompany?id='+appliedBidId,
+            type: 'Post',
+            cache: false,
+            async: true,
+            data: JSON.stringify(jsonBidRequest),
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                alert("Sold Success")
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+</script>
+
+
+<div class="col-md-12">
+    <div class="row">
+        <div id="bidsHtml"></div>
+    </div>
+    <div class="row">
+        <h3>Customers are willing to purchase this product</h3>
+
+        <div id="appliedBidsHtml">
+        </div>
+    </div>
+</div>
+
+<script type="text/html" id="bidsTemp">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td><b>Bid Code</b></td>
+                <td><b>Company Name</b></td>
+                <td><b>Product Name</b></td>
+                <td><b> Price</b></td>
+                <td><b>Quantity</b></td>
+                <td><b>Amount</b></td>
+            </tr>
+        </thead>
+        {#foreach $T as record}
+
+        <tbody>
+            <tr>
+                <td>
+                    {$T.record.Id}
+                </td>
+                <td>
+                    {$T.record.CompanyName}
+                </td>
+
+                <td>
+                    {$T.record.ProductName}
+                </td>
+                <td>
+                    {$T.record.Price}
+                </td>
+                <td>
+                    {$T.record.Qty} {$T.record.Unit}
+                </td>
+
+                <td>
+                    {$T.record.Amount}
+                </td>
+
+                <td>
+                    {$T.record.TotalApply}
+                </td>
+                
+                <td>
+                    <a href="#" class="btn btn-primary" onclick="JavaScript: GetAppliedBid('{$T.record.Id}')" data-toggle="modal" data-target="#appliedCustomersModal">Applied Customers</a>
+                </td>
+            </tr>
+        </tbody>
+
+        {#/for}
+    </table>
+</script>
+
+
+
+<script type="text/html" id="appliedBidsTemp">
+    <table class="table table-bordered">
+        {#foreach $T as record}
+        <tr>
+            <td colspan="6">
+                <h4>Tender Code-{$T.record.BidId},          Product-{$T.record.BidProductName}</h4>
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td> {$T.record.CustomerName}</td>
+            <td>Mobile</td>
+            <td> {$T.record.CustomerMobileNo}</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Photo</td>
+            <td> {$T.record.CustomerName}</td>
+            <td>Mobile</td>
+            <td> {$T.record.CustomerMobileNo}</td>
+        </tr>
+        <tr>
+            <td>Since date : {$T.record.CustomerCreatedDate}</td>
+            <td>Address</td>
+            <td> {$T.record.CustomerAddress}</td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2" style="text-align:center"><strong>Tender Requirment</strong></td>
+            <td colspan="2" style="text-align:center"><strong>Customer Proposed</strong></td>
+        </tr>
+        <tr>
+            <td>Tender Price</td>
+            <td> {$T.record.BidPrice}</td>
+            <td>Proposed Price</td>
+            <td> {$T.record.Price} - difference- {$T.record.DifferencePrice}</td>
+        </tr>
+        <tr>
+            <td>Tender quantity</td>
+            <td> {$T.record.BidQty}</td>
+            <td>Proposed Quantity</td>
+            <td> {$T.record.Qty}</td>
+        </tr>
+        <tr>
+            <td>Published date</td>
+            <td> {$T.record.BidCreatedDate}</td>
+            <td>Customer applied date</td>
+            <td> {$T.record.CreatedDate}</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <a href="#" class="btn btn-success" onclick="JavaScript:SoldBid('{$T.record.Id}')">Sold</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6"><hr /></td>
+        </tr>
+        {#/for}
+
+    </table>
+</script>

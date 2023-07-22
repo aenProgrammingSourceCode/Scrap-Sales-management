@@ -1,0 +1,324 @@
+﻿@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#checkedAll").change(function () {
+            if (this.checked) {
+                $(".checkSingle").each(function () {
+                    this.checked = true;
+                })
+            } else {
+                $(".checkSingle").each(function () {
+                    this.checked = false;
+                })
+            }
+        });
+
+        $(".checkSingle").click(function () {
+            if ($(this).is(":checked")) {
+                var isAllChecked = 0;
+                $(".checkSingle").each(function () {
+                    if (!this.checked)
+                        isAllChecked = 1;
+                })
+                if (isAllChecked == 0) { $("#checkedAll").prop("checked", true); }
+            }
+            else {
+                $("#checkedAll").prop("checked", false);
+            }
+        });
+
+
+
+
+
+        GetAllCategory();
+        $("#btnSave").hide();
+        $('#frmGoodsTypeForm').bootstrapValidator({
+            // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        stringLength: {
+                            min: 1,
+                        },
+                        notEmpty: {
+                            message: 'Please supply your  name'
+                        }
+                    }
+                },
+                description: {
+                    validators: {
+                        stringLength: {
+                            min: 1,
+                        },
+                        notEmpty: {
+                            message: 'Please supply your  name'
+                        }
+                    }
+                }
+
+            }
+        });
+    });
+    function CreateCategory() {
+        $("#btnSave").show();
+        if ($("#txtCategoryName").val() != "") {
+            var jsonData =
+                {
+                    Name: $("#txtCategoryName").val(),
+                    Description: $("#txtDescription").val()
+                };
+            $.ajax({
+                url: '/api/Category/Create',
+                type: 'POST',
+                dataType: 'json',
+                data: jsonData,
+                success: function (data) {
+                    var list = '<tr><td>' + data.Category.Name + '</td><td>' + data.Category.Description + '</td><td>' + data.Category.CreatedDate + '</td>'
+                    $('#previewCategory').append(list);
+                   
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+            })
+        }
+        else {
+            alert("Field required");
+        }
+    }
+    function SaveCategory() {
+
+        if ($("#txtCategoryName").val() != "") {
+            var jsonData =
+                {
+                    Name: $("#txtCategoryName").val(),
+                    Description: $("#txtDescription").val()
+                };
+            $.ajax({
+                url: '/api/Category/Post',
+                type: 'POST',
+                dataType: 'json',
+                data: jsonData,
+                success: function (data) {
+                    alert("Success");
+                    GetAllCategory();
+                    $('#previewCategory').empty();
+                    $("#btnSave").hide();
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+            })
+        }
+        else {
+            alert("Field required");
+        }
+    }
+    function GetAllCategory() {
+        $.ajax({
+            url: '/api/Category/GetAll',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                var myData = { categories: data };
+                // Render data jtemplate
+                $("#categoriesHtml").setTemplate($("#categoriesTemp").html());
+                $("#categoriesHtml").processTemplate(myData);
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function DeleteMultipleCategory() {
+        var chkChecked = $("input[name='category']:checked").length;
+        if (chkChecked >= 1) {
+            var postArr = [];
+            var index = 0;
+            var deleteData;
+
+            $.each($("input[name='category']:checked"), function () {
+                postArr[index] = { CategoryId: $(this).val() }
+                index++;
+            });
+            deleteData = { Categories: postArr };
+            var jsonData = JSON.stringify(deleteData);
+            $.ajax({
+                url: '/api/Category/DeleteCategory',
+                type: 'POST',
+                cache: false,
+                dataType: 'json',
+                data: jsonData,
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    GetAllCategory();
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+            });
+        }
+        else {
+            alert("Please select category to remove!");
+        }
+    }
+
+
+</script>
+@*<style>
+        .pull-center {
+            float: center !important;
+        }
+    </style>*@
+
+<div class="row">
+    <h4>Category</h4>
+    <hr />
+    <form id="frmGoodsTypeForm" class="form-horizontal">
+        @*<div id="msg" class="alert-warning">Error for contacting us, we will get back to you shortly</div>
+            <div class="alert alert-success" role="alert" id="success_message">
+                Success <i class="glyphicon glyphicon-thumbs-up">
+                </i> Thanks for contacting us, we will get back to you shortly.
+            </div>*@
+        <div class="form-group">
+            <label class="col-md-4 control-label">Name</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input name="name" placeholder="Name" class="form-control" id="txtCategoryName" type="text">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-md-4 control-label">Project Description</label>
+            <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                    <textarea class="form-control" name="description" placeholder="Project Description" id="txtDescription"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4">
+                <button type="button" id="btnSendCategory" class="btn btn-primary" onclick="JavaScript: CreateCategory()"><span>Submit</span></button>
+            </div>
+        </div>
+    </form>
+    <hr />
+    <div class="row">
+        <table class="table table-bordered" id="previewCategory">
+            <tbody></tbody>
+        </table>
+        <div id="btnSave" class="pull-right"> <button type="button" class="btn btn-warning" onclick="JavaScript: SaveCategory()" id="btnSaveCategory">Save <span class="glyphicon glyphicon-send"></span></button></div>
+    </div>
+    <hr />
+    <div class="row">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <td colspan="3">
+                            <a href="#" class="btn btn-warning pull-right" onclick="JavaScript: DeleteMultipleCategory()">Delete Selected</a> 
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>  Name</b>
+                        </td>
+                        <td>
+                            <b> Descriptions</b>
+                        </td>
+                        <td>
+                            <b> Date of Created</b>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="checkedAll" id="checkedAll" /> 
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="categoriesHtml"></tbody>
+            </table>
+         
+    </div>
+</div>
+
+
+<script type="text/html" id="categoriesTemp">
+            {#foreach $T.categories as record}
+            <tr>
+                <td>
+                    <p class="text-info">  {$T.record.Name}  </p>
+                </td>
+                <td>
+                    <p>  {$T.record.Description}</p>
+                </td>
+                <td>
+                    <p>  {$T.record.CreatedDate}</p>
+                </td>
+                <td>
+                    <input type="checkbox" value="{$T.record.Id}" id="chkCategory" name="category" class="checkSingle" />
+                </td>
+            </tr>
+            {#/for}
+        
+
+
+    @*<tr>
+            <td></td>
+            <td></td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" value="{$T.record.Id}" id="chkCategory" name="category" class="checkSingle" />
+            </td>
+
+            <td>
+                <h4></h4>
+            </td>
+            <td>
+               </p>
+            </td>
+            <td>
+                <a role="menuitem" tabindex="-1" href="#" data-toggle="modal" data-target="#categoryDetailsModal" onclick="JavaScript: getCategoryDetails('{$T.record.Id}')">Details</a>
+            </td>
+            <td>
+                <a role="menuitem" tabindex="-1" href="#" data-toggle="modal" data-target="#categoryEditModal" onclick="JavaScript:getCategoryDetailsForEdit('{$T.record.Id}')">Edit</a>
+            </td>
+            <td>
+                <a role="menuitem" tabindex="-1" href="/AdminProduct/Index/{$T.record.Id}">Products</a>
+            </td>
+        </tr>
+
+
+        <tr>
+
+            <td colspan="3">
+                <a href="#" class="btn btn-link" onclick="JavaScript: RemoveCategory()">Remove</a>
+            </td>
+        </tr>*@
+
+</script>

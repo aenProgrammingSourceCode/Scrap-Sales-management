@@ -1,0 +1,182 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script src="~/Scripts/jquery-jtemplates.js"></script>
+ 
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        GetCustomerInformation();
+        GetAppliedBids();
+        GetSoldBids();
+    });
+
+
+    function GetCustomerInformation() {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+        $.ajax({
+            url: '/api/Customer/Get?userIdentity=' + Identity,
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                var list = '<tr><td>Customer Code</td><td>' + data.Customer.Id + '</td></tr><tr><td>Customer Name</td><td>' + data.Customer.Name + '</td></tr><tr><td>Mobile no</td><td>' + data.Customer.MobileNo + '</td></tr><tr><td>Address</td><td>' + data.Customer.Address + '</td></tr><tr><td colspan="2"><a href="#" class="btn btn-primary pull-right" onclick="JavaScript:" data-toggle="modal" data-target="#customerInfoModal">Edit</a></td></tr>'
+                $("#customerHtml").append(list);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+    function GetAppliedBids() {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+        $.ajax({
+            url: '/api/Bid/GetAppliedBid?idToken=' + Identity,
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data.ApplyToBids, function (k, v) {
+                    var list = '<tr><td>' + v.BidId + '</td><td>' + v.BidCompanyName + '</td><td>' + v.BidProductName + '</td><td>' + v.BidPrice + '</td><td>' + v.Price + '</td><td>' + v.BidCreatedDate + '</td><td>' + v.CreatedDate + '</td></tr>'
+                    $("#appliedBidHtml").append(list);
+                });
+                
+             
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+    function GetSoldBids() {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+        $.ajax({
+            url: '/api/Bid/WinBidForCustomer?idToken=' + Identity,
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data.ApplyToBids, function (k, v) {
+                    var list = '<tr><td>' + v.BidId + '</td><td>' + v.BidCompanyName + '</td><td>' + v.BidProductName + '</td><td>' + v.BidPrice + '</td><td>' + v.Price + '</td><td>' + v.BidCreatedDate + '</td><td>' + v.CreatedDate + '</td></tr>'
+                    $("#winBidHtml").append(list);
+                });
+
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+        
+    @*function CreateCompany(tableReference) {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+        var jsonUser = {
+            UserIdentity: Identity,
+            Name: $("#txtName").val(),
+            AdminUserName: $("#txtUserName").val(),
+            AdminUserPosition: $("#txtPosition").val(),
+        };
+        $.ajax({
+            url: '/api/Company/Create',
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            data: JSON.stringify(jsonUser),
+            success: function (data) {
+                $("#previewOfCompany").show();
+                var list = '<tr><td>' + data.Company.Name + '</td><td>' + data.Company.UserName + '</td><td>' + data.Company.Position + '</td><td>' + data.Company.CreateDate + '</td></tr>'
+                $("#submittedCompany").append(list);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+    function SaveCompany() {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+        var jsonUser = {
+            UserIdentity: Identity,
+            Name: $("#txtName").val(),
+            AdminUserName: $("#txtUserName").val(),
+            AdminUserPosition: $("#txtPosition").val(),
+        };
+        $.ajax({
+            url: '/api/Company/Save',
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            data: JSON.stringify(jsonUser),
+            success: function (data) {
+                GetAllCompany();
+                $("#previewOfCompany").hide();
+                alert("Company created successfully");
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }*@
+
+
+</script>
+
+<div class="col-lg-12">
+    @*Customer page*@
+
+    <div class="row" id="customerAppliedBid">
+      
+    </div>
+    <div class="row" id="customerAppliedBidListForm">
+        <h3>Your applied Tender information</h3>
+        <hr />
+        <table id="customerAppendAll" class="table table-bordered">
+            <thead>
+                <tr><td><b>Tender Id</b></td><td><b>Comapny name</b></td><td><b>Product name</b></td><td><b>Tender price</b></td><td><b>Proposed price</b></td><td><b>Declare date</b></td><td><b>Your applied date</b></td></tr>
+            </thead>
+            <tbody id="appliedBidHtml"></tbody>
+        </table>
+    </div>
+
+   
+    <div class="row" id="customerWinBidListForm" style="display:none">
+        <h3>Your won tender list</h3>
+        <hr />
+        <table id="customerAppendAll" class="table table-bordered">
+            <thead>
+                <tr><td><b>Tender Id</b></td><td><b>Comapny name</b></td><td><b>Product name</b></td><td><b>Tender price</b></td><td><b>Proposed price</b></td><td><b>Declare date</b></td><td><b>Your applied date</b></td></tr>
+            </thead>
+            <tbody id="winBidHtml"></tbody>
+
+        </table>
+    </div>
+ 
+    <div class="row" id="customerAccountInfromation" style="display:none">
+        <h3>Customer account information</h3>
+        <hr />
+        <table id="appendAll" class="table table-bordered">
+
+            <tbody id="customerHtml"></tbody>
+
+        </table>
+    </div>
+</div>
+
+
+

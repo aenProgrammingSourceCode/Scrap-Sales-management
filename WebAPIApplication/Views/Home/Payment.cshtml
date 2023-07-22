@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Microsoft.AspNet.Identity
+<h2>Payment</h2>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        GetPaymentList();
+    });
+
+    function CreatePayment(PaymentId) {
+        $.ajax({
+            url: '/api/Payment/PostPayment?UserId='+$("txtUser").val(),
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function () {
+                alert("Hay alam you are success!")
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+    function GetPaymentList() {
+        $.ajax({
+            url: '/api/Payment/GetAllPaymentList',
+            type: 'GET',
+            cache: false,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                var payments = JSON.stringify(data);
+                alert(payments);
+                $("#paymentList").setTemplate($("#paymentListTemp").html());
+                $("#paymentList").processTemplate(data);
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+</script>
+
+<input id="txtUser" value="@Html.Encode(HttpContext.Current.User.Identity.Name)" type="text" />
+<button type="button" class="btn btn-primary" onclick="JavaScript: CreatePayment('{$T.record.Id}')">Create</button>
+
+<div id="paymentList">
+
+</div>
+    <script type="text/html" id="paymentListTemp">
+        <table class="table">
+            <tbody>
+                {#foreach $T as record}
+                <tr>
+                    <td> {$T.record.Id}</td>
+                    <td> {$T.record.PaymentDate}</td>
+                    <td><button type="button" class="btn btn-primary" onclick="JavaScript: CreatePayment('{$T.record.Id}')">Update</button></td>
+                </tr>
+                {#/for}
+            </tbody>
+        </table>
+    </script>

@@ -1,0 +1,270 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "FormBuild";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        $("#btnXShowCreateForm").click(function () {
+            $("#xForm").slideToggle("slow");
+        });
+        $("#btnXHideCreateForm").click(function () {
+            $("#xForm").slideToggle("slow");
+        });
+
+        $("#btnXCreate").click(function () {
+            $("#xPreviewForm").slideDown("slow");
+        });
+        GetAllProducts();
+        GetAllGoodsType();
+        GetAllCompany();
+    });
+    function GetAllGoodsType() {
+        $.ajax({
+            url: '/api/GoodsType/GetAll',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data.GoodsTypes, function (k, v) {
+                    var goodsType = '<option value="' + v.Id + '">' + v.Name + '</option>'
+                    $("#ddlGoodsTypeForCreateBid").append(goodsType);
+                })
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function GetAllCompany() {
+        $.ajax({
+            url: '/api/Company/GetAll',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data.Companies, function (k, v) {
+                    var companies = '<option value="' + v.Id + '">' + v.Name + '</option>'
+                    $("#ddlCompanyForCreateBid").append(companies);
+                })
+
+                //$("#ddlcompany").setTemplate($("#companiesTemp").html());
+                //$("#ddlcompany").processTemplate(data.Companies);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function GetAllProducts() {
+        $.ajax({
+            url: '/api/Product/GetAll',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data.Products, function (k, v) {
+                    var products = '<option value="' + v.Id + '">' + v.Name + '</option>'
+                    $("#ddlProductForCreateBid").append(products);
+                })
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function CreateBid() {
+        var jsonBidRequest = {
+            Price: $("#txtPrice").val(),
+            Qty: $("#txtQuantity").val(),
+            CompanyId: $("#ddlCompanyForCreateBid").val(),
+            ProductId: $("#ddlProductForCreateBid").val(),
+            GoodsTypeId: $("#ddlGoodsTypeForCreateBid").val(),
+            UnitId: $("#ddlUnitForCreateBid").val()
+        }
+        $.ajax({
+            url: '/api/Bid/Create',
+            type: 'Post',
+            cache: false,
+            async: true,
+            data: JSON.stringify(jsonBidRequest),
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                var list = '<tr><td>' + data.Bid.CompanyName + '</td><td>' + data.Bid.GoodsTypeName + '</td><td>' + data.Bid.ProductName + '</td><td>' + data.Bid.Price + '</td><td>' + data.Bid.Qty + '</td><td>' + data.Bid.Amount + '</td>'
+                $('#appendCreatedBid').append(list);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function SaveBid() {
+        var jsonBidRequest = {
+            Price: $("#txtPrice").val(),
+            Qty: $("#txtQuantity").val(),
+            CompanyId: $("#ddlCompanyForCreateBid").val(),
+            ProductId: $("#ddlProductForCreateBid").val(),
+            GoodsTypeId: $("#ddlGoodsTypeForCreateBid").val(),
+            UnitId: $("#ddlUnitForCreateBid").val()
+        }
+        $.ajax({
+            url: '/api/Bid/Save',
+            type: 'Post',
+            cache: false,
+            async: true,
+            data: JSON.stringify(jsonBidRequest),
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                alert("Your bid saved successfully!");
+                $('#appendCreatedB').empty();
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+</script>
+ 
+<div class="col-lg-10">
+        
+    <div class="row" id="xCreateForm">
+        <h3>FormBuild</h3>
+        <input id="btnXShowCreateForm" type="button" value="Create" class="btn btn-info" />
+        <div id="xForm" style="display:none">
+            <hr />
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <select id="ddlCompanyForCreateBid" class="form-control"></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="product">Product type</label>
+                    <select id="ddlGoodsTypeForCreateBid" class="form-control"></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="product">Product name</label>
+                    <select id="ddlProductForCreateBid" class="form-control">
+                        <option value="0" selected>Select Product name</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="text" class="form-control" id="txtPrice">
+                </div>
+
+                <div class="form-group">
+                    <label for="Quantity">Quantity</label>
+                    <input type="text" class="form-control" id="txtQuantity">
+                </div>
+
+                <div class="form-group">
+                    <label for="product">Unit</label>
+                    <select id="ddlUnitForCreateBid" class="form-control">
+                        <option value="1" selected>Kg</option>
+                        <option value="2">Lot</option>
+                        <option value="2017">PC</option>
+                    </select>
+                </div>
+            </form>
+            <hr />
+            <input id="btnXCreate" type="button" value="Create" class="btn btn-info" onclick="JavaScript: CreateBid()" />
+            <input id="btnXHideCreateForm" type="button" value="Cancel" class="btn btn-info" />
+        </div>
+    </div>
+    <div class="row" id="xPreviewForm" style="display:none">
+        <hr />
+        <table class="table table-bordered" id="appendCreatedBid">
+            <tbody></tbody>
+        </table>
+        <input id="btnxSave" type="button" value="Save" class="btn btn-info" onclick="JavaScript: SaveBid()" />
+    </div>
+
+    <div class="row" id="xListForm">
+    </div>
+    <div class="row" id="xDetailsForm">
+    </div>
+    <div class="row" id="xEditForm">
+    </div>
+</div>
+
+
+@*<style>
+    ul.dropdown-menu {
+        display: none;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('li.list-group-item').hover(
+    function () {
+        $(this).find('ul').slideDown();
+    },
+    function () {
+        $(this).find('ul').slideUp();
+    });
+    })
+    
+</script>
+
+
+<div class="col-md-12">
+    <div class="col-lg-2 menu-body">
+        <h3>FormBuild</h3>
+        <hr />
+        <ul class="list-group">
+            <li class="list-group list-group-item">
+                <a href="#" class="dropdown-toggle">Dropdown Appear 1</a>
+                <ul class="list-group">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                </ul>
+            </li>
+
+            <li class="list-group list-group-item">
+                <a href="#" class="dropdown-toggle">Dropdown Appear 2</a>
+                <ul class="list-group">
+                    <li><a href="#">Another Item 1</a></li>
+                    <li><a href="#">Another Item 2</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+    <div class="col-lg-10">
+        <div class="row" id="xCreateForm">
+            <h3>FormBuild</h3>
+            <hr />
+            Form
+        </div>
+        <div class="row" id="xPreviewForm">
+        </div>
+        <div class="row" id="xListForm">
+        </div>
+        <div class="row" id="xDetailsForm">
+        </div>
+        <div class="row" id="xEditForm">
+        </div>
+    </div>
+   
+</div>*@

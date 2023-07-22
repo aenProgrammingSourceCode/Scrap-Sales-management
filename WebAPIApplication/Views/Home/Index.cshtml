@@ -1,0 +1,131 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@if (Request.IsAuthenticated && User.IsInRole("Incomplete"))
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetRoleByUserId();
+           
+        });
+
+       
+
+        function GetRoleByUserId() {
+            var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+            $.ajax({
+                url: '/api/LocalUser/GetUserRole?userId=' + Identity,
+                type: 'GET',
+                cache: false,
+                async: true,
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    $.each(data, function (k, v) {
+                        if (v.RoleId == "9609be1e-9b7e-488d-ad07-8fa6c684d27b") {
+                            window.location.href = "/Home/ValidateAuth";
+                        }
+                    });
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    //alert("error" + jsonError);
+                }
+
+            });
+        }
+    </script>
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        GetAllBidByProductGroup();
+        SearchBidTable();
+    });
+    function SearchBidTable() {
+        $('#txtSearchProduct').keyup(function () {
+            search_table($(this).val());
+        });
+        function search_table(value) {
+            $('#productTable li').each(function () {
+                var found = 'false';
+                $(this).each(function () {
+                    if ($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+                        found = 'true';
+                    }
+                });
+                if (found == 'true') {
+                    $(this).show();
+                }
+                else {
+                    $("#msgEmpty").show();
+                    $(this).hide();
+                }
+            });
+        }
+    }
+    function GetAllBidByProductGroup() {
+        //var jsonData = {
+        //    ProductName:"5/8 Plate"
+        //    //CompanyName: $("#txtSearch").val()
+        //}
+        $.ajax({
+            url: '/api/Bid/GetBidByProductGroup',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            //data: JSON.stringify(jsonData),
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data, function (i, v) {
+                    var list = "<ul class='list-group col-lg-3 col-md-5 col-xm-4 col-sm-6' id='productTable'><li class='list-group-item hidden'><span>" + '<img src="/Content/images/3dbimage/2.jpg" width="50" height="50" /><a href="/Home/GetBidByProduct/' + v.ProductId + '">' + v.ProductName + "</a></span><span>(" + v.TotalBidByProduct + ")</span>"
+                    $('#holdByProduct').append(list);
+                });
+
+                var showNumberOtItem = 10;
+                function loadMore() {
+                    var showlist = $("#holdByProduct .hidden").slice(0, showNumberOtItem).removeClass("hidden");
+                    var totalExpendList = showlist.length;
+                }
+
+                if (showNumberOtItem >= 10) {
+                    loadMore();
+                    $("#btnLoadMoreProduct").on("click", loadMore);
+                }
+                else {
+                    loadMore();
+                    $("#btnLoadMoreProduct").hide();
+                }
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                //alert("error" + jsonError);
+            }
+
+        });
+    }
+</script>
+
+
+
+<div class="col-md-12">
+
+    <div class="row">
+        <h3>Search Products</h3>
+        <hr />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                    <input type="text" name="search" id="txtSearchProduct" class="form-control" placeholder="Search for names.." />
+                </div>
+        <hr />
+        <div id="holdByProduct">
+        </div>
+        <hr />
+    </div>
+</div>

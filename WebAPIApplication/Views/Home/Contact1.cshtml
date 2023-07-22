@@ -1,0 +1,43 @@
+﻿@model IdentitySample.Models.EditUserViewModel
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Complete your account";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        GetByCompanyUser();
+    })
+
+    function GetByCompanyUser() {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+        $.ajax({
+            url: '/api/Company/Get?userIdentityToken=' + Identity,
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                alert(JSON.stringify(data));
+                //$("#ddlcompany").setTemplate($("#companiesTemp").html());
+                //$("#ddlcompany").processTemplate(data.Companies);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+</script>
+ 
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

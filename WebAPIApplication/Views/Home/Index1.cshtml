@@ -1,0 +1,178 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+ 
+<script src="~/Scripts/jquery-jtemplates.js"></script>
+
+<script>
+    $(document).ready(function () {
+        
+        GetAllBids(1);
+        $("#ddlProduct").change(function () {
+            GetAllBids(1);
+        });
+    });
+    
+   
+
+    function GetAllBids(CurrentPage)
+    {
+        var productId = $("#ddlProduct").val();
+        GetAllBidByPage(CurrentPage, productId);
+    }
+
+    function GetAllBidByPage(CurrentPage, productId) {
+        var jsonData = {
+            ProductId: productId
+        }
+        $.ajax({
+            url: '/api/Bid/GetBidByCriteria',
+            type: 'POST',
+            cache: false,
+            async: true,
+            data:JSON.stringify(jsonData),
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                var bids = data.Bids;
+                var totalItem = bids.length;
+                var PageSize = 5;
+                var totalPage = Math.ceil(totalItem / PageSize);
+                var a = (CurrentPage - 1) * PageSize;
+                var b = CurrentPage * PageSize;
+                var totalBids = bids.slice(a, b);
+                $("#totalBidsFoundByProduct").append(data.TotalProductByGroup);
+                buildPageLinksFor("#mybids", CurrentPage, totalPage)
+
+                $("#bidsHtml").setTemplate($("#bidsTemp").html());
+                $("#bidsHtml").processTemplate(totalBids);
+               
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+
+    function buildPageLinksFor(spanId, index, totalPages) {
+
+        var i = 1;
+        var html = '';
+        for (i = 1; i <= totalPages; i++) {
+
+            if (i == index)
+                html = html + "<ul class='pagination'><li class='active'> <a href='JavaScript:GetAllBids(" + i + ")'>" + i + "</a></li></ul>&nbsp;";
+            else
+                html = html + "<ul class='pagination'><li><a href='JavaScript:GetAllBids(" + i + ")'>" + i + "</a></li></ul>&nbsp;";
+        }
+
+        $(spanId).html(html);
+    }
+   
+</script>
+<h2>Tender List</h2>
+<hr />
+<ul class="list-inline">
+    <li><a href="#">Home -</a> </li>
+    <li><a href="#">Category -</a> </li>
+    <li><a href="#">Product</a> </li>
+</ul>
+<hr />
+<h4>Refine Tender by Product</h4>
+<hr />
+<select id="ddlProduct">
+    <option value="1" selected>Mobile</option>
+    <option value="2016">Computer</option>
+    <option value="2017">TV</option>
+
+</select>
+<p id="totalBidsFoundByProduct" class="text-info"></p>
+    <div id="bidsHtml">
+
+    </div>
+
+    <ul id="bids" class="list-group"></ul>
+    <ul id='mybids'></ul>
+
+    <script type="text/html" id="bidsTemp">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>Bid Code</td>
+                <td>Product Name</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Amount</td>
+            </tr>
+        </thead>
+        {#foreach $T as record}
+
+        <tbody>
+            <tr>
+                <td>
+                    {$T.record.Id}
+                </td>
+
+                <td>
+                    {$T.record.ProductName}
+                </td>
+                <td>
+                    {$T.record.Price}
+                </td>
+                <td>
+                    {$T.record.Qty} {$T.record.Unit}
+                </td>
+
+                <td>
+                    {$T.record.Amount}
+                </td>
+            </tr>
+        </tbody>
+
+        {#/for}
+    </table>
+</script>
+
+
+
+    @*<script src="~/Scripts/jquery.dataTables.min.js"></script>
+        <link href="~/Content/DataTables/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+        <script type="text/javascript">
+            $(document).ready(function () {
+                GetAllBid();
+            })
+            function GetAllBid() {
+                $.ajax({
+                    url: '/api/Bid/GetAll',
+                    type: 'GET',
+                    cache: false,
+                    async: true,
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        var totalBids = data.Bids.length;
+                        var page = 3;
+                        var pageSize = 4;
+                        var totalPages = Math.ceil(totalBids / pageSize)
+
+                        var a = (page - pageSize) * (pageSize);
+                        var b = page * pageSize;
+                        var sl = (a - b);
+                        alert(sl);
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+
+                });
+            }
+        </script>
+
+
+        <table id="bids">
+
+        </table>*@

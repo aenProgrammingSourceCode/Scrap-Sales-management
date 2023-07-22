@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Orders";
+    Layout = "~/Views/Shared/_LayoutHomeProduct.cshtml";
+}
+
+
+<h1> Thank you</h1>
+
+<h2 class="text-success"> Your order successfully submited, We will contact very soon with you.</h2>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        OrderDetailsById();
+    })
+
+    function OrderDetailsById() {
+        $.ajax({
+            url: '/api/Order/GetOrderByIdentityToken',
+            type: 'GET',
+            cache: false,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                //var myBasket = { Basket: data.Basket }
+                $("#orderSummaryHtml").setTemplate($("#orderSummaryTemp").html());
+                $("#orderSummaryHtml").processTemplate(data);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+</script>
+
+<div id="orderDetailsHtml">
+
+</div>
+
+<script type="text/html" id="OrderSummaryTemp">
+    <table>
+        <thead>
+            {#foreach $T as record}
+            <tr>
+                <td>{$T.record.Id}</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {#/for}
+        </thead>
+    </table>
+</script>

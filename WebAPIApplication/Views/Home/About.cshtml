@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "About";
+}
+<script src="~/ani/sweetalert-dev.js"></script>
+<link href="~/ani/sweetalert.css" rel="stylesheet" />
+
+<script>
+    $(function () {
+        var $research = $('.research');
+        $research.find("tr").not('.accordion').hide();
+        $research.find("tr").eq(0).show();
+
+        $research.find(".accordion").click(function () {
+            $research.find('.accordion').not(this).siblings().fadeOut(500);
+            $(this).siblings().fadeToggle(500);
+        }).eq(0).trigger('click');
+    });
+</script>
+ @*<table class="research">
+    <tbody>
+        <tr class="accordion">
+            <td colspan="3">This is the header</td>
+        </tr>
+        <tr class="accordion">
+            <td colspan="3">This is the header1</td>
+        </tr>
+        <tr class="accordion">
+            <td colspan="3">This is the header2</td>
+        </tr>
+         
+    </tbody>
+</table>*@
+
+<table class="research">
+    <tbody>
+        <tr class="accordion">
+            <td colspan="3">Customer</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Description</td>
+            <td>Partner</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+            <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+            <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="research">
+    <tbody>
+        <tr class="accordion">
+            <td colspan="3">Company</td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Description</td>
+            <td>Partner</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+            <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+            <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+        </tr>
+    </tbody>
+</table>
+
+<button onclick="JSalert()">Show an Alert</button>
+<script type="text/javascript">
+    function JSalert() {
+        swal("Congrats!", ", Your account is created!", "success");
+    }
+</script>

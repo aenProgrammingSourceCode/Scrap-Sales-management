@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "SoldItemForCustomer";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>SoldItemForCustomer</h2>
+
+<script>
+    $(document).ready(function () {
+        GetSoldItem();
+    })
+
+    function GetSoldItem() {
+        $.ajax({
+            url: '/api/Bid/GetSoldItemForCustomer',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $("#soldBidsHtml").setTemplate($("#soldBidsTemp").html());
+                $("#soldBidsHtml").processTemplate(data.ApplyToBids);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+</script>
+
+
+<div class="col-md-12">
+    <div class="row">
+        <h3>Customers are willing to purchase this product</h3>
+
+        <div id="soldBidsHtml">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/html" id="soldBidsTemp">
+    <table class="table table-bordered">
+        {#foreach $T as record}
+        <tr>
+            <td colspan="6">
+                <h4>Tender Code-{$T.record.BidId},          Product-{$T.record.BidProductName}</h4>
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td> {$T.record.CustomerName}</td>
+            <td>Mobile</td>
+            <td> {$T.record.CustomerMobileNo}</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Photo</td>
+            <td> {$T.record.CustomerName}</td>
+            <td>Mobile</td>
+            <td> {$T.record.CustomerMobileNo}</td>
+        </tr>
+        <tr>
+            <td>Since date : {$T.record.CustomerCreatedDate}</td>
+            <td>Address</td>
+            <td> {$T.record.CustomerAddress}</td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2" style="text-align:center"><strong>Tender Requirment</strong></td>
+            <td colspan="2" style="text-align:center"><strong>Customer Proposed</strong></td>
+        </tr>
+        <tr>
+            <td>Tender Price</td>
+            <td> {$T.record.BidPrice}</td>
+            <td>Proposed Price</td>
+            <td> {$T.record.Price} - difference- {$T.record.DifferencePrice}</td>
+        </tr>
+        <tr>
+            <td>Tender quantity</td>
+            <td> {$T.record.BidQty}</td>
+            <td>Proposed Quantity</td>
+            <td> {$T.record.Qty}</td>
+        </tr>
+        <tr>
+            <td>Published date</td>
+            <td> {$T.record.BidCreatedDate}</td>
+            <td>Customer applied date</td>
+            <td> {$T.record.CreatedDate}</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <a href="#" class="btn btn-success" onclick="JavaScript:SoldBid('{$T.record.Id}')">Sold</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6"><hr /></td>
+        </tr>
+        {#/for}
+
+    </table>
+</script>

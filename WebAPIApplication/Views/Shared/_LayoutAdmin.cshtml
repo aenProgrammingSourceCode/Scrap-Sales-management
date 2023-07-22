@@ -1,0 +1,188 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+@using Microsoft.AspNet.Identity
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#BidDevide").show();
+        $("#btnCompany").click(function () {
+        
+            $("#CompanyDivide").show();
+            $("#BidDevide").hide();
+        });
+
+        $("#btnBid").click(function () {
+          
+            $("#CompanyDivide").hide();
+            $("#BidDevide").show();
+        });
+        $("#btnAppliedBid").click(function () {
+          
+            $("#CompanyDivide").hide();
+            $("#BidDevide").hide();
+        });
+        $("#btnWin").click(function () {
+            $("#customerWinBidListForm").show();
+            $("#customerAppliedBidListForm").hide();
+            $("#customerAccountInfromation").hide();
+        });
+        $("#btnCustomer").click(function () {
+            $("#customerWinBidListForm").hide();
+            $("#customerAppliedBidListForm").show();
+            $("#customerAccountInfromation").hide();
+        });
+        $("#btnCustomerAccount").click(function () {
+            $("#customerWinBidListForm").hide();
+            $("#customerAppliedBidListForm").hide();
+            $("#customerAccountInfromation").show();
+        });
+
+    })
+
+    
+
+    function JSalert() {
+        swal("Congrats!", ", Your account is created!", "success");
+    }
+
+
+</script>
+<script src="~/Scripts/jquery-jtemplates.js"></script>
+<div class="row">
+    <div class="col-md-4 col-lg-3 col-sm-5 col-xs-12">
+        <div class="panel-group" id="clpMenu">
+             
+            @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <div class="panel panel-info">
+                    <div class="panel-heading head">
+                        <h4 class="panel-title">
+                            <a href="#">Authentication</a>
+                        </h4>
+                    </div>
+                    <div class="panel-body content">
+                        <ul class="list-unstyled">
+                            <li>
+                                @Html.ActionLink("RolesAdmin", "Index", "RolesAdmin")
+                            </li>
+                            <li>
+                                @Html.ActionLink("UsersAdmin", "Index", "UsersAdmin")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Category", "Category", "Home")
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            }
+
+            @if (Request.IsAuthenticated && User.IsInRole("Company"))
+            {
+                <div class="panel panel-info">
+                    <div class="panel-heading head">
+                        <h4 class="panel-title">
+                            <a href="#">Company</a>
+                        </h4>
+                    </div>
+                    <div class="panel-body content">
+
+                        <ul class="list-unstyled">
+                            <li>
+                               <a href="#" id="btnCompany">Create company</a>
+                            </li>
+                            <li>
+                                <a href="#" id="btnBid">Create tender</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            }
+            @if (Request.IsAuthenticated && User.IsInRole("Customer"))
+            {
+                <div class="panel panel-info">
+                    <div class="panel-heading head">
+                        <h4 class="panel-title">
+                            <a href="#">Customer</a>
+                        </h4>
+                    </div>
+                    <div class="panel-body content">
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" id="btnCustomer">Tender</a>
+                            </li>
+                            <li>
+                                <a href="#" id="btnWin">Win Tender</a>
+                            </li>
+                            <li>
+                                <a href="#" id="btnCustomerAccount">Account</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            }
+
+
+            @*<div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Customers</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in content">
+                        @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <div class="panel-body">
+                                @Html.ActionLink("Category", "Category", "Home")
+                            </div>
+                            <div class="panel-body">
+                                @Html.ActionLink("Bids", "AdminCompany", "Home")
+                            </div>
+                            <div class="panel-body">
+                                @Html.ActionLink("RolesAdmin", "Index", "RolesAdmin")
+                            </div>
+                            <div class="panel-body">
+                                @Html.ActionLink("UsersAdmin", "Index", "UsersAdmin")
+                            </div>
+                        }
+                    </div>
+                </div>*@
+
+                @*<div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Product</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                    @Html.ActionLink("Product", "Index", "AdminProduct")
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <a href="#">Category</a>
+                            </div>
+                            <div class="panel-body">
+                                <a href="#">Category</a>
+                            </div>
+                            <div class="panel-body">
+                                <a href="#">Category</a>
+                            </div>
+                        </div>
+                    </div>*@
+            </div>
+        </div>
+
+        <div class="col-md-8 col-lg-9 col-sm-7 col-xs-12">
+            @RenderBody()
+        </div>
+
+    </div>

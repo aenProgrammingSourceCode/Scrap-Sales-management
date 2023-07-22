@@ -1,0 +1,246 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+ 
+    <script src="~/Scripts/jquery-3.1.1.js"></script>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.0/css/responsive.bootstrap.min.css" rel="stylesheet">
+
+    @*<script src="//code.jquery.com/jquery-1.12.4.js"></script>*@
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.0/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.0/js/responsive.bootstrap.min.js"></script>
+
+    
+    <title>FrontDesign</title>
+
+    <script>
+        $(document).ready(function () {
+            var id = 1;
+            ProductByCategoryAjax(id);
+        })
+        function ProductByCategoryAjax(Id) {
+            $.ajax({
+                url: '/api/Product/GetProductByCategory?CategoryId=' + Id,
+                type: 'GET',
+                cache: false,
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    var json = data.Products;
+                    for (var i = 0; i < json.length; i++) {
+                        tr = $("<tr/>");
+                        tr.append('<td> <img class="img-thumbnail" src="/Content/ProductImage/'+json[i].Id+'.jpg" width="100" height="100" /></td>');
+                        tr.append("<td>" + json[i].Name + "</td>");
+                        tr.append("<td>" + json[i].CreatedDate + "</td>");
+                        tr.append("<td>" + json[i].BrandName + "</td>");
+                        tr.append("<td>" + json[i].ProductModelName + "</td>");
+                        tr.append("<td>" + json[i].ManufactureName + "</td>");
+                        tr.append("<td>" + json[i].CategoryName + "</td>");
+                        tr.append('<td><button type="button" class="btn btn-default" data-toggle="modal" ng-click="GetCustomer(' + json[i].Id + ')" data-target="#myModal">Edit</button></td>');
+
+                        $('table').append(tr);
+                    }
+                    var table=$('#ProductList').DataTable(
+                         {
+                             "pageLength": 10,
+                             "columnDefs": [
+                                  
+                  {
+                      "targets": [1],
+                      "visible": true,
+                      "searchable":true,
+                      "type": "string"
+                  },
+                  {
+                      "targets": [2],
+                      "visible": true,
+                      "searchable": true,
+                      "type": "string"
+                  },
+                   {
+                       "targets": [3],
+                       "visible": true,
+                       "searchable": true,
+                       "type": "string"
+                   },
+                   {
+                       "targets": [4],
+                       "visible": true,
+                       "searchable": true,
+                       "type": "string"
+                   },
+
+                  {
+                      "aoColumns": [
+                  { "sName": "name"},
+                  { "sName": "startdate"},
+                    { "sName": "brand"},
+                      { "sName": "model"},
+                    { "sName": "origine"},
+                      { "sName": "category"}
+                      ]
+                  }]                            
+                        });
+
+                    $('.radio').change(function () {
+                       table.columns(1).search(this.value).draw();
+                   });
+
+
+                    //Event Listener for custom textbox to filter datatable
+                   $('#customSearchTextBox').on('keyup keypress change', function () {
+                       table.search(this.value).draw();
+                   });
+
+                   $('.checkbox').change(function () {
+                       changeTable(true);
+                   });
+                    //Event Listener for button click for Selecting all columns and Deselecting
+                   $('.btn-fltr-clearAll, .btn-fltr-selectAll').click(function () {
+                       changeTable(true)
+                   })
+
+                   function changeTable(checkBoxStatus) {
+
+                       i = 0;
+                       var arr = [];
+                       $('input:checkbox[name="searchby-column"]:checked').each(function () {
+                           arr[i++] = parseInt(this.value);
+                       });
+                       var searchBox = $('#customSearchTextBox').val();
+
+                       if (checkBoxStatus) {
+
+                           if (arr[0] == null) {
+                               arr = [1,3];
+                           }
+                           table.destroy();
+
+                           table = $('#ProductList').DataTable(
+                               {
+                                   "pagingType": "simple",
+                                   "iDisplayLength": 10,
+                                   "iDisplayStart": 1,
+                                   columnDefs: [
+                                      { targets: arr, searchable: true },
+                                      { targets: '_all', searchable: false }
+                                   ]
+                               }
+                           );
+                       }
+
+                       //use custom search box
+                       table.search(searchBox).draw();
+                   }
+
+
+                    //ko.applyBindings({"product":[data]});
+
+                    ////$("#productsHtml").setTemplate($("#productsTemp").html());
+                    //$("#productsHtml").processTemplate(data);
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+            });
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container body-content">
+        <div class="container" style="margin:20px">
+            <div class="col-lg-2"> 
+                <div class="row">
+                    
+                    <div class="input-group">
+                        <input type="text" id="customSearchTextBox" name="textSearch" class="btn-input btn-input-search form-control" placeholder="Search For Something" maxlength="250">
+                    </div>
+
+                    <div class="checkbox">
+                        <form>
+                            <div class="checkbox">
+                                <label><input type="checkbox" id="column-name" name="searchby-column" value="">Name</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" id="column-name" name="searchby-column" value="">Brand</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" id="column-name" name="searchby-column" value="">Model</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                    <div class="row">
+
+                        <form class="form-group">
+                            <div class="radio">
+                                <label><input type="radio" id="all" value="" name="searchRadio">All</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" class="radio" id="New York" name="searchRadio" value="New York">New York</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" id="all" name="searchRadio">Model</label>
+                            </div>
+                        </form>
+
+                     
+
+                    </div>
+
+
+                </div>
+
+            <div class="col-lg-10">
+                <div class="row">
+                   
+
+                </div>
+                    <div class="row">
+                        <table id="ProductList" class="table table-striped table-bordered dt-responsive nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Start Date</th>
+                                    <th>Brand Name</th>
+                                    <th>Model</th>
+                                    <th>Origine</th>
+                                    <th>Category</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Start Date</th>
+                                    <th>Brand Name</th>
+                                    <th>Model</th>
+                                    <th>Origine</th>
+                                    <th>Category</th>
+                                </tr>
+                            </tfoot>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

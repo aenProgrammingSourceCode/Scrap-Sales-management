@@ -1,0 +1,184 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("[name=SelectedRole]").click(function () {
+            $('.toHide').hide();
+            $("#blk-" + $(this).val()).show('slow');
+        });
+
+        $("#btnSave").click(function () {
+            if ($('#rdoCustomer').prop('checked') == true) {
+                CreateCutomer();
+            }
+            else {
+                CreateCompany();
+            }
+        })
+    });
+     
+    function CreateCutomer() {
+        if ($('#rdoCustomer').prop('checked') == true) {
+            var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+            var jsonCustomerInfo = {
+                CustomerIdentityToken: Identity,
+                Name: $("#txtCustomerName").val(),
+                MobileNo: $("#txtMobileNo").val(),
+                Address: $("#txtAddress").val()
+            };
+            $.ajax({
+                url: '/api/Customer/CreateCustomer',
+                type: 'POST',
+                cache: false,
+                async: true,
+                data: JSON.stringify(jsonCustomerInfo),
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+               
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    //alert("error" + jsonError);
+                }
+            });
+        }
+    }
+
+
+    function CreateCompany() {
+        if ($('#rdoCompany').prop('checked') == true) {
+            var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+            var jsonUser = {
+                UserIdentity: Identity,
+                Name: $("#txtCompanyName").val(),
+                AdminUserPosition: $("#txtPosition").val(),
+                AdminUserName: $("#txtUserName").val()
+            };
+            $.ajax({
+                url: '/api/Company/Save',
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                data: JSON.stringify(jsonUser),
+                success: function () {
+
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    //alert("error" + jsonError);
+                }
+            });
+        }
+    }
+
+    function ModifyUserRole() {
+        var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+        if ($('#rdoCustomer').prop('checked') == true) {
+            var jsonRole =
+            {
+                RoleId: "4f39cfc7-c20f-4559-b29f-07a2ae0a3c3b"
+            }
+        }
+
+       if ($('#rdoCompany').prop('checked') == true) {
+           jsonRole =
+            {
+                RoleId: "814ada6c-3375-4034-acee-2b56be348389"
+            }
+        }
+
+        $.ajax({
+            url: '/api/LocalUser/Edit?userId=' + Identity,
+            type: 'POST',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            data: JSON.stringify(jsonRole),
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                window.location.href = "/Home/Index";
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                //alert("error" + jsonError);
+            }
+        });
+    }
+
+
+</script>
+<div class="col-md-4">
+  
+</div>
+<div class="col-md-4">
+    <div class="row">
+        <h3>Select your purpose</h3>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <table>
+                    <tr><td colspan="2"><h2> I want to</h2> </td></tr>
+                    <tr>
+                        <td><input id="rdoCustomer" type="radio" name="SelectedRole" value="Customer" />Buy</td>
+                        <td><input id="rdoCompany" type="radio" name="SelectedRole" value="Company" />Sale  </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="blk-Customer" class="toHide" style="display:none">
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Name</label>
+                    <div class="col-md-10">
+                        <input name="customerName" placeholder="Enter your Name" class="form-control" id="txtCustomerName" type="text" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Phone/Mobile</label>
+                    <div class="col-md-10">
+                        <input name="customerName" placeholder="Enter your phon or mobile no" class="form-control" id="txtMobileNo" type="text" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Address</label>
+                    <div class="col-md-10">
+                        <input name="customerName" placeholder="Enter your Name" class="form-control" id="txtAddress" type="text" required>
+                    </div>
+                </div>
+            </div>
+            <div id="blk-Company" class="toHide" style="display:none">
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Company name</label>
+                    <div class="col-md-10">
+                        <input name="companyName" placeholder="Enter your Name" class="form-control" id="txtCompanyName" type="text" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Your name</label>
+                    <div class="col-md-10">
+                        <input name="companyName" placeholder="Enter your Name" class="form-control" id="txtUserName" type="text" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-2">Position</label>
+                    <div class="col-md-10">
+                        <input name="position" placeholder="Enter your position to this company" class="form-control" id="txtPosition" type="text" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="button" class="btn btn-success" onclick="Javascript: ModifyUserRole()" id="btnSave">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+
+</div>

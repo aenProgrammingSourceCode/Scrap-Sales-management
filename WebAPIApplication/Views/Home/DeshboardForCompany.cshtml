@@ -1,0 +1,746 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/jquery-jtemplates.js"></script>
+
+<style>
+    .msg-fixed {
+        padding: 2px;
+        margin: 2px 2px 3px 2px;
+        border: thin solid #CCCCCC;
+        z-index: 2000;
+        background-color: #CCCCCC;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #bhh;
+        width: 40px;
+        height: 25px;
+        font-size: small;
+        font-weight: normal;
+        text-align: center;
+    }
+</style>
+ 
+
+@if (Request.IsAuthenticated && User.IsInRole("Company"))
+{
+    <div id="CompanyDivide" style="display:none">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                FormAnimation("xCompany", "yCompany", "zCompany", "pCompany", "cCompany", "sCompany");
+                FormAnimation("xBid", "yBid", "zBid", "pBid", "cBid", "sBid");
+                GetCompanyByUser();
+            });
+            function FormAnimation(x, y, z, p, c, s) {
+                $("#" + x).click(function () {
+                    $("#" + y).slideToggle("slow");
+                });
+                $("#" + z).click(function () {
+                    $("#" + y).slideUp("slow");
+                    $("#" + p).slideUp("slow");
+                });
+
+                $("#" + c).click(function () {
+                    $("#" + p).slideDown("slow");
+                });
+
+                $("#" + s).click(function () {
+                    $("#" + y).slideUp("slow");
+                    $("#" + p).slideUp("slow");
+                });
+            }
+            //Start Company Method
+            function GetCompanyByUser() {
+                var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+                $.ajax({
+                    url: '/api/Company/Get?userIdentityToken=' + Identity,
+                    type: 'GET',
+                    cache: false,
+                    async: true,
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        $.each(data.Companies, function (k, v) {
+                            var companies = '<option value="' + v.Id + '">' + v.Name + '</option>'
+                            $("#ddlCompanyForCreateBid").append(companies);
+                            $("#ddlcompany").append(companies);
+                        });
+
+                        $("#companiesHtml").setTemplate($("#companiesTemp").html());
+                        $("#companiesHtml").processTemplate(data.Companies);
+
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+            function CreateCompany() {
+                var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+                var jsonUser = {
+                    UserIdentity: Identity,
+                    Name: $("#txtName").val(),
+                    AdminUserName: $("#txtUserName").val(),
+                    AdminUserPosition: $("#txtPosition").val(),
+                };
+                $.ajax({
+                    url: '/api/Company/Create',
+                    type: 'POST',
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    data: JSON.stringify(jsonUser),
+                    success: function (data) {
+                        var list = '<tr><td>' + data.Company.Name + '</td><td>' + data.Company.UserName + '</td><td>' + data.Company.Position + '</td><td>' + data.Company.CreateDate + '</td></tr>'
+                        $("#appendCreated").append(list);
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+            function SaveCompany() {
+                var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())';
+                var table = $("#appendCreated");
+                table.find('tr').each(function (i) {
+                    var $tds = $(this).find('td'),
+                        name = $tds.eq(0).text(),
+                        userName = $tds.eq(1).text(),
+                        position = $tds.eq(2).text();
+
+                    var jsonUser = {
+                        UserIdentity: Identity,
+                        Name: name,
+                        AdminUserName: userName,
+                        AdminUserPosition: position,
+                    };
+
+                    $.ajax({
+                        url: '/api/Company/Save',
+                        type: 'POST',
+                        dataType: 'json',
+                        contentType: 'application/json;charset-utf-8',
+                        data: JSON.stringify(jsonUser),
+                        success: function (data) {
+                            $("#appendCreated").empty();
+                            GetCompanyByUser();
+                        },
+                        error: function (r) {
+                            var jsonError = JSON.stringify(r);
+                            alert("error" + jsonError);
+                        }
+                    });
+                });
+            }
+        </script>
+        <div class="row" id="xCreateForm">
+            <h3>Manage your all company</h3>
+            <input id="xCompany" type="button" value="New Company" class="btn btn-info" />
+            <div id="yCompany" style="display:none">
+                <hr />
+                <form id="frmCompanyForm" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Company Name</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <input name="name" placeholder="Enter Name" class="form-control" id="txtName" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Your name</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <input name="user" placeholder="Enter User Name" class="form-control" id="txtUserName" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Your position</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <input name="postion" placeholder="Enter Postion" class="form-control" id="txtPosition" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <hr />
+                <input id="cCompany" type="button" value="Create" class="btn btn-info" onclick="JavaScript: CreateCompany()" />
+                <input id="zCompany" type="button" value="Cancel" class="btn btn-info" />
+            </div>
+        </div>
+        <div class="row" id="pCompany" style="display:none">
+            <hr />
+            <table class="table table-bordered" id="appendCreated">
+                <tbody></tbody>
+            </table>
+            <input id="sCompany" type="button" value="Save" class="btn btn-info" onclick="JavaScript: SaveCompany()" />
+        </div>
+        <div class="row">
+            <hr />
+            <table class="table table-bordered">
+                @*<tr>
+                        <td colspan="6">
+                            <a href="#" class="btn btn-info pull-right">Delete Selected</a>
+                        </td>
+                    </tr>*@
+                <tr>
+                    <td>
+                        <b>Code</b>
+                    </td>
+                    <td>
+                        <b>Name</b>
+                    </td>
+                    <td>
+                        <b>User Name</b>
+                    </td>
+                    <td>
+                        <b> Position</b>
+                    </td>
+                    <td>
+                        <b> Created Date</b>
+                    </td>
+                    @*<td>
+                            <input type="checkbox" name="checkedAll" id="checkedAll" />
+                        </td>*@
+                </tr>
+                <tbody id="companiesHtml"></tbody>
+            </table>
+            <hr />
+        </div>
+        <script type="text/html" id="companiesTemp">
+            {#foreach $T as record}
+            @*<tr>
+                    <td colspan="6">
+                        <a href="#" class="btn btn-info pull-right">Delete Selected</a>
+                    </td>
+                </tr>*@
+            <tr>
+                <td>
+                    {$T.record.Id}
+                </td>
+                <td>
+                    {$T.record.Name}
+                </td>
+                <td>
+                    {$T.record.UserName}
+                </td>
+                <td>
+                    {$T.record.Position}
+                </td>
+                <td>
+                    {$T.record.CreateDate}
+                </td>
+                @*<td>
+                        <input type="checkbox" name="checkedAll" id="checkedAll" />
+                    </td>*@
+                {#/for}
+        </script>
+    </div>
+  
+    <div id="BidDevide" style="display:none">
+      
+        <style>
+            .applied {
+                font-family: Calibri, 'Lucida Sans Unicode';
+                font-size: small;
+                font-weight: bold;
+                color: #0099CC;
+            }
+
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                GetAllGoodsType();
+                GetAllProducts();
+                GetAllBidByCompanyUser(1);
+
+            
+
+            });
+ 
+
+            function GetAllGoodsType() {
+                $.ajax({
+                    url: '/api/GoodsType/GetAll',
+                    type: 'GET',
+                    cache: false,
+                    async: true,
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        $("#ddlGoodsTypeForCreateBid").setTemplate($("#goodsTypeTemp").html());
+                        $("#ddlGoodsTypeForCreateBid").processTemplate(data.GoodsTypes);
+
+                        $("#ddlGoodsType").setTemplate($("#goodsTypeTemp").html());
+                        $("#ddlGoodsType").processTemplate(data.GoodsTypes);
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+            function GetAllProducts() {
+
+                $.ajax({
+                    url: '/api/Product/GetAll',
+                    type: 'GET',
+                    cache: false,
+                    async: true,
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        $("#ddlProductForCreateBid").setTemplate($("#productsTemp").html());
+                        $("#ddlProductForCreateBid").processTemplate(data.Products);
+
+                        $("#ddlProduct").setTemplate($("#productsTemp").html());
+                        $("#ddlProduct").processTemplate(data.Products);
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+
+            function GetAllBidByCompanyUser(CurrentPage) {
+                var Identity = '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+                //var jsonData = {
+                //    UserIdentity: Identity
+                //}
+                $.ajax({
+                    url: '/api/Bid/GetAllBidByUser?userIdentity=' + Identity,
+                    type: 'GET',
+                    cache: false,
+                    async: true,
+                    //data: JSON.stringify(jsonData),
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        var bids = data.Bids;
+                        $.each(bids, function (k, v) {
+                            var list = "<tbody><tr><td>" + v.Id + "</td><td>" + v.CompanyName + "</td><td>" + v.ProductName + "</td><td>" + v.PriceCurrency + "</td><td>" + v.QtyDecimal + '' + v.ProductUnit + "</td><td>" + v.NetQuantity + '' + v.ProductUnit + "</td><td>" + v.AmountCurrency + "</td><td style='display:none' class='bidCounts'>" + v.CountSold + "</td><td class='applied'><div id='sold' style='display:none'> <img src='/Content/" + v.CountSold + ".jpg' /></div> <div id='unSold' style='display:none'> <a href='#' onclick='JavaScript:GetAppliedBid(" + v.Id + ")' id='btnForAppliedBid' data-toggle='modal' data-target='#appendApliedBid'>" + v.TotalApply + "</a></div></td></tr></tbody>"
+                            $('#companyBidsHtml').append(list);
+                        });
+
+                            $("#companyBidsHtml tr").each(function () {
+                                var $tds = $(this).find('td.bidCounts');
+                                var $tds1 = $(this).find('td.applied');
+                                if ($tds.text() == 1) {
+                                   $tds1.find('div#sold').show();
+                                   $tds1.find('div#unSold').hide();
+                                }
+                                else
+                                {
+                                    $tds1.find('div#unSold').show();
+                                }
+                            });
+                            //$("#companyBidsHtml").setTemplate($("#companyBidsTemp").html());
+                            //$("#companyBidsHtml").processTemplate(bids);
+                        
+                         
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+
+            function buildPageLinksFor(spanId, index, totalPages) {
+
+                var i = 1;
+                var html = '';
+                for (i = 1; i <= totalPages; i++) {
+                    if (totalPages <= 1) {
+                        html = ''
+                    }
+                    else {
+                        if (i == index)
+                            html = html + "<ul class='pagination'><li class='active'> <a href='JavaScript:GetAllBids(" + i + ")'>" + i + "</a></li></ul>&nbsp;";
+                        else
+                            html = html + "<ul class='pagination'><li><a href='JavaScript:GetAllBids(" + i + ")'>" + i + "</a></li></ul>&nbsp;";
+                    }
+                }
+
+                $(spanId).html(html);
+            }
+
+            function CreateBid() {
+                var jsonBidRequest = {
+                    Price: $("#txtPrice").val(),
+                    Qty: $("#txtQuantity").val(),
+                    CompanyId: $("#ddlCompanyForCreateBid").val(),
+                    ProductId: $("#ddlProductForCreateBid").val(),
+                    GoodsTypeId: $("#ddlGoodsTypeForCreateBid").val(),
+                    UnitId: $("#ddlUnitForCreateBid").val(),
+                    UserIdentity: '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+                }
+                $.ajax({
+                    url: '/api/Bid/Create',
+                    type: 'Post',
+                    cache: false,
+                    async: true,
+                    data: JSON.stringify(jsonBidRequest),
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        var list = '<tr><td>' + data.Bid.CompanyName + '</td><td>' + data.Bid.GoodsTypeName + '</td><td>' + data.Bid.ProductName + '</td><td>' + data.Bid.Price + '</td><td>' + data.Bid.Qty+''+data.Bid.ProductUnit + '</td><td>' + data.Bid.Amount + '</td>'
+                        $('#bidAppendCreated').append(list);
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+
+            
+            function SaveBid() {
+                
+             
+                var jsonBidRequest = {
+                    Price: $("#txtPrice").val(),
+                    Qty: $("#txtQuantity").val(),
+                    CompanyId: $("#ddlCompanyForCreateBid").val(),
+                    ProductId: $("#ddlProductForCreateBid").val(),
+                    GoodsTypeId: $("#ddlGoodsTypeForCreateBid").val(),
+                    UnitId: $("#ddlUnitForCreateBid").val(),
+                    UserIdentity: '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())'
+                }
+                $.ajax({
+                    url: '/api/Bid/Save',
+                    type: 'Post',
+                    cache: false,
+                    async: true,
+                    data: JSON.stringify(jsonBidRequest),
+                    dataType: 'json',
+                    contentType: 'application/json;charset-utf-8',
+                    success: function (data) {
+                        swal("Thanks!", ", Your tender is created!", "success");
+                        GetAllBidByCompanyUser(1);
+
+                    },
+                    error: function (r) {
+                        var jsonError = JSON.stringify(r);
+                        alert("error" + jsonError);
+                    }
+                });
+            }
+        </script>
+        <div class="row" id="bidCreateForm">
+            <h3>Manage your bids</h3>
+            <input id="xBid" type="button" value="New Bid" class="btn btn-info" />
+            <div id="yBid" style="display:none">
+                <hr />
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <select id="ddlCompanyForCreateBid" class="form-control"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product">Product type</label>
+                        <select id="ddlGoodsTypeForCreateBid" class="form-control"></select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product">Product name</label>
+                        <select id="ddlProductForCreateBid" class="form-control"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input type="text" class="form-control" id="txtPrice">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Quantity">Quantity</label>
+                        <input type="text" class="form-control" id="txtQuantity">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product">Unit</label>
+                        <select id="ddlUnitForCreateBid" class="form-control">
+                            <option value="Kg" selected>Kg</option>
+                            <option value="Ton" selected>Ton</option>
+                            <option value="Lot">Lot</option>
+                            <option value="Pcs">Pcs</option>
+                        </select>
+                    </div>
+                </form>
+                <hr />
+                <input id="cBid" type="button" value="Create" class="btn btn-info" onclick="JavaScript: CreateBid()" />
+                <input id="zBid" type="button" value="Cancel" class="btn btn-info" />
+            </div>
+        </div>
+        <div class="row" id="pBid" style="display:none">
+            <hr />
+            <table class="table table-bordered" id="bidAppendCreated">
+                <tbody></tbody>
+            </table>
+            <input id="sBid" type="button" value="Save" class="btn btn-info" onclick="JavaScript: SaveBid()" />
+        </div>
+        <div class="row">
+            <hr />
+            @*<form class="form-inline">
+                    <table class="table table-striped">
+                        <tr>
+                            <td>
+                                Company   <select id="ddlcompany" class="form-control"></select>
+                            </td>
+                            <td>
+                                Goods Type<select id="ddlGoodsType" class="form-control"></select>
+                            </td>
+                            <td>
+                                Products <select id="ddlProduct" class="form-control"></select>
+                            </td>
+
+                        </tr>
+                    </table>
+                </form>*@
+            
+            <table class='table table-bordered customerIDCell tableFont' id='companyBidsHtml'>
+                <thead>
+                    <tr>
+                        <td><b>Tender Id</b></td>
+                        <td><b>Company Name</b></td>
+                        <td><b>Product Name</b></td>
+                        <td><b> Price</b></td>
+                        <td><b>Quantity</b></td>
+                        <td><b>Balance</b></td>
+                        <td><b>Amount</b></td>
+                        <td><b>Status</b></td>
+                    </tr>
+                </thead>
+            </table>
+</div>
+        
+        <script type="text/html" id="companiesTemp">
+            <option value="0" selected>Select Company</option>
+            {#foreach $T as record}
+            <option value="{$T.record.Id}">{$T.record.Name}</option>
+            {#/for}
+        </script>
+        <script type="text/html" id="productsTemp">
+            <option value="0" selected>Select Product</option>
+            {#foreach $T as record}
+            <option value="{$T.record.Id}">{$T.record.Name}</option>
+            {#/for}
+        </script>
+        <script type="text/html" id="goodsTypeTemp">
+            <option value="0" selected>Select Product Type</option>
+            {#foreach $T as record}
+            <option value="{$T.record.Id}">{$T.record.Name}</option>
+            {#/for}
+        </script>
+        
+        <script type="text/html" id="companyBidsTemp">
+            <table class="table table-bordered customerIDCell" id="mytable">
+                <thead>
+                    <tr>
+                        <td><b>Tender Id</b></td>
+                        <td><b>Company Name</b></td>
+                        <td><b>Product Name</b></td>
+                        <td><b> Price</b></td>
+                        <td><b>Quantity</b></td>
+                        <td><b>Balance</b></td>
+                        <td><b>Amount</b></td>
+                        <td><b>Status</b></td>
+                        <td><b></b></td>
+                    </tr>
+                </thead>
+                {#foreach $T as record}
+                <tbody>
+                    <tr>
+                        <td>
+                            {$T.record.Id}
+                        </td>
+                        <td>
+                            {$T.record.CompanyName}
+                        </td>
+
+                        <td>
+                            {$T.record.ProductName}
+                        </td>
+                        <td>
+                            {$T.record.PriceCurrency}
+                        </td>
+                        <td>
+                            {$T.record.QtyDecimal} {$T.record.ProductUnit}
+                        </td>
+                        <td>
+                            {$T.record.NetQuantity} {$T.record.ProductUnit}
+                        </td>
+
+                        <td>
+                            {$T.record.AmountCurrency}
+                        </td>
+                        <td>
+
+                            {$T.record.CountSold}
+                        </td>
+
+                        <td id='isSoldCount'>
+                            <div class='unSoldBid'>
+                                <a href='#' onclick="JavaScript:GetAppliedBid('{$T.record.id}')" id='btnForAppliedBid' data-toggle='modal' data-target='#appendApliedBid'>{$T.record.TotalApply }</a>
+                            </div>
+                        </td>
+
+                    </tr>
+                </tbody>
+                {#/for}
+            </table>
+        </script>
+    </div>
+    
+   <div id="AppliedDevide">
+
+       <script>
+           function GetAppliedBid(bidId) {
+               $.ajax({
+                   url: '/api/Bid/GetAllAppliedBidList?bidId=' + bidId,
+                   type: 'GET',
+                   cache: false,
+                   async: true,
+                   dataType: 'json',
+                   contentType: 'application/json;charset-utf-8',
+                   success: function (data) {
+                       $("#appliedBidsForSoldHtml").setTemplate($("#appliedBidsForSoldTemp").html());
+                       $("#appliedBidsForSoldHtml").processTemplate(data.ApplyToBids);
+                   },
+                   error: function (r) {
+                       var jsonError = JSON.stringify(r);
+                       alert("error" + jsonError);
+                   }
+               });
+           }
+           function SoldBid(appliedBidId) {
+               var jsonBidRequest = {
+                   Msg: "Contact with our company"
+               };
+               $.ajax({
+                   url: '/api/Bid/ModifyAppliedBidByCompany?id=' + appliedBidId,
+                   type: 'Post',
+                   cache: false,
+                   async: true,
+                   data: JSON.stringify(jsonBidRequest),
+                   dataType: 'json',
+                   contentType: 'application/json;charset-utf-8',
+                   success: function (data) {
+                       swal("Sold!", ", Your tender is sold!", "success");
+                   },
+                   error: function (r) {
+                       var jsonError = JSON.stringify(r);
+                       alert("error" + jsonError);
+                   }
+               });
+           }
+
+       </script>
+        
+
+        <div class="col-md-12">
+            <div class="row">
+                <div id="bidsHtml"></div>
+            </div>
+            <div class="row">
+                <div class="modal fade" id="appendApliedBid" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Customers are willing to purchase this product</h4>
+                                <div class="alert alert-success" id="successMsg" style="display:none">
+                                    <strong>Success!</strong> Your tender successfully sold, Perhaps customer could communicate with you by mobile.
+                                </div>
+                            </div>
+                            <div class="modal-body" id="appliedBidsForSoldHtml">
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+             
+            </div>
+        </div>
+
+        <script type="text/html" id="appliedBidsForSoldTemp">
+            <table class="table table-bordered">
+                {#foreach $T as record}
+                <tr>
+                    <td colspan="6">
+                        <h4>Tender Code-{$T.record.BidId},        Product-{$T.record.BidProductName}</h4>
+                    </td>
+                </tr>
+           
+                <tr>
+                    <td rowspan="2">Photo</td>
+                    <td> {$T.record.CustomerName}</td>
+                    <td>Mobile</td>
+                    <td> {$T.record.CustomerMobileNo}</td>
+                </tr>
+                <tr>
+                    <td>Since date : {$T.record.CustomerCreatedDate}</td>
+                    <td>Address</td>
+                    <td> {$T.record.CustomerAddress}</td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="2" style="text-align:center"><strong>Tender Requirment</strong></td>
+                    <td colspan="2" style="text-align:center"><strong>Customer Proposed</strong></td>
+                </tr>
+                <tr>
+                    <td>Tender Price</td>
+                    <td> {$T.record.BidPrice}</td>
+                    <td>Proposed Price</td>
+                    <td> {$T.record.Price} - difference- {$T.record.DifferencePrice}</td>
+                </tr>
+                <tr>
+                    <td>Tender quantity</td>
+                    <td> {$T.record.BidQty}</td>
+                    <td>Proposed Quantity</td>
+                    <td> {$T.record.Qty}</td>
+                </tr>
+                <tr>
+                    <td>Published date</td>
+                    <td> {$T.record.BidCreatedDate}</td>
+                    <td>Customer applied date</td>
+                    <td> {$T.record.CreatedDate}</td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <a href="#" class="btn btn-success" onclick="JavaScript:SoldBid('{$T.record.Id}')">Sold this item</a>
+                    </td>
+                </tr>
+                
+                {#/for}
+
+            </table>
+        </script>
+
+    </div>
+}
+else
+{
+    <script>
+        $(document).ready(function () {
+            window.location.href = "/Home/Customer";
+        });
+    </script>
+}
+
+
+ 
+

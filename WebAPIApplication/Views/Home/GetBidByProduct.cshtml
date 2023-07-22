@@ -1,0 +1,215 @@
+﻿@{
+    ViewBag.Title = "GetBidByProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-jtemplates.js"></script>
+
+
+@*<link href="~/Content/JqueryUI/jquery-ui.css" rel="stylesheet" />
+<link href="~/Content/JqueryUI/jquery-ui.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>*@
+ 
+<script>
+    $(document).ready(function () {
+        SearchBidTable();
+        var paths = window.location.pathname;
+        var pt = paths.length;
+        var Id = paths.substring(22, pt);
+        GetBidByProduct(Id);
+        $("#msgEmpty").hide();
+        GetAllBidByProductGroup();
+    });
+
+    function SearchBidTable() {
+        $('#txtTender').keyup(function () {
+            search_table($(this).val());
+        });
+        function search_table(value) {
+            $('#bidTable tr').each(function () {
+                var found = 'false';
+                $(this).each(function () {
+                    if ($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+                        found = 'true';
+                    }
+
+                });
+                if (found == 'true') {
+                    $(this).show();
+
+                }
+                else {
+                    $(this).hide();
+                }
+            });
+        }
+    }
+    function GetBidByProduct(productId) {
+        GetAllBidByPage(1, productId)
+    };
+    function GetAllBidByPage(CurrentPage, productId) {
+        var jsonData = {
+            ProductId: productId
+        };
+        $.ajax({
+            url: '/api/Bid/GetBidByProduct',
+            type: 'POST',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            data: JSON.stringify(jsonData),
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                var bids = data.Bids;
+                var totalItem = bids.length;
+                var PageSize = 5;
+                var totalPage = Math.ceil(totalItem / PageSize);
+                var a = (CurrentPage - 1) * PageSize;
+                var b = CurrentPage * PageSize;
+                var totalBids = bids.slice(a, b);
+
+                buildPageLinksFor("#mybids", CurrentPage, totalPage)
+
+                $("#bidsHtml").setTemplate($("#bidsTemp").html());
+                $("#bidsHtml").processTemplate(totalBids);
+
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert("error" + jsonError);
+            }
+        });
+    }
+    function buildPageLinksFor(spanId, index, totalPages) {
+
+        var i = 1;
+        var html = '';
+        for (i = 1; i <= totalPages; i++) {
+            if (totalPages <= 1) {
+                html = ''
+            }
+            else {
+                if (i == index)
+                    html = html + "<ul class='pagination'><li class='active'> <a href='JavaScript:GetAllBids(" + i + ")'>" + i + "</a></li></ul>&nbsp;";
+                else
+                    html = html + "<ul class='pagination'><li><a href='JavaScript:GetAllBids(" + i + ")'>" + i + "</a></li></ul>&nbsp;";
+            }
+        }
+
+        $(spanId).html(html);
+    }
+    function GetAllBidByProductGroup() {
+        //var jsonData = {
+        //    ProductName:"5/8 Plate"
+        //    //CompanyName: $("#txtSearch").val()
+        //}
+        $.ajax({
+            url: '/api/Bid/GetBidByProductGroup',
+            type: 'GET',
+            cache: false,
+            async: true,
+            dataType: 'json',
+            //data: JSON.stringify(jsonData),
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                $.each(data, function (i, v) {
+
+                    var list = "<a class='list-group-item' onclick='JavaScript: GetBidByProduct("+v.ProductId+")'>" + v.ProductName + "<span class='badge'>" + v.TotalBidByProduct + "</span></a>"
+                    $('#holdByProduct').append(list);
+                });
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                //alert("error" + jsonError);
+            }
+        });
+    }
+    </script>
+
+
+
+<div class="col-md-3">
+    <div class="panel-group">
+        <div class="panel panel-heading"><h3> Related Product</h3></div>
+        <div class="panel-body">
+            <div class='list-group' id="holdByProduct">
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="col-md-9">
+    <hr />
+    <h3> Tender by your product</h3>
+
+    <div class="input-group ui-widget">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+        <input type="text" name="search" id="txtTender" class="form-control" placeholder="Search for names.." />
+    </div>
+    <hr />
+    <div id="bidsHtml">
+    </div>
+    <hr />
+</div>
+
+
+<script type="text/html" id="bidsTemp">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>
+                    <b>Tender Id</b>
+                </td>
+
+                <td>
+                    <b>  Company Name</b>
+                </td>
+
+                <td>
+                    <b>  Product Name</b>
+                </td>
+                <td>
+                    <b>Price</b>
+                </td>
+                <td>
+                    <b>  Quantity</b>
+                </td>
+                <td>
+                    <b>  Amount</b>
+                </td>
+                <td>
+                     
+                </td>
+            </tr>
+        </thead>
+
+        {#foreach $T as record}
+
+        <tbody id="bidTable">
+            <tr>
+                <td>
+                    {$T.record.Id}
+                </td>
+                <td>
+                    {$T.record.CompanyName}
+                </td>
+                <td>
+                    {$T.record.ProductName}
+                </td>
+                <td>
+                    {$T.record.PriceCurrency}
+                </td>
+                <td>
+                    {$T.record.NetQuantity} {$T.record.ProductUnit}
+                </td>
+                <td>
+                    {$T.record.AmountCurrency}
+                </td>
+                <td>
+                    <a href="/Home/CriteriaForApplyBid/{$T.record.Id}" id="btnApplyRedirect" class="btn btn-info">Apply now</a>
+                </td>
+            </tr>
+        </tbody>
+        {#/for}
+    </table>
+    <p class="text-danger" id="msgEmpty" style="text-align:center; display:none">No tender available with this name</p>
+</script>

@@ -1,0 +1,265 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "CriteriaForApplyBid";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CriteriaForApplyBid</h2>
+
+
+<style>
+    input.currency {
+        text-align: right;
+        padding-right: 15px;
+    }
+</style>
+<script src="~/Scripts/jquery-jtemplates.js"></script>
+<script>
+    var unitValue;
+    var findCurrentUnit;
+
+    $(document).ready(function () {
+            var paths = window.location.pathname;
+            var pt = paths.length;
+            var Id = paths.substring(26, pt);
+            $.ajax({
+                url: '/api/Bid/GetBidByBid?id=' + Id,
+                type: 'Get',
+                cache: false,
+                async: true,
+                dataType: 'json',
+                contentType: 'application/json;charset-utf-8',
+                success: function (data) {
+                    var v = data.Bid;
+                    var list = "<tbody><tr><td>" + v.Id + "</td><td>" + v.CompanyName + "</td><td>" + v.ProductName + "</td><td>" + v.PriceCurrency + "</td><td>" + v.NetQuantity + "</td><td class='pUnit'>" + v.ProductUnit + "</td><td>" + v.AmountCurrency + "</td></tr></tbody>"
+                    $('#companyBidHtml').append(list);
+                    var $tds = $("#companyBidHtml").find("tr td.pUnit");
+                    findCurrentUnit = $tds.text();
+                    
+                    $("#btnCancel").click(function () {
+                        var productId = data.Bid.ProductId;
+                        window.location.href = "/Home/GetBidByProduct/" + productId;
+                    })
+                },
+                error: function (r) {
+                    var jsonError = JSON.stringify(r);
+                    alert("error" + jsonError);
+                }
+
+            });
+
+            $(".dropdown-menu li a").click(function () {
+                $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+                $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+
+            });
+
+
+            $(".txtMult input").keyup(multInputs);
+            function multInputs() {
+                var mult = 0;
+                // for each row:
+                $("tr.txtMult").each(function () {
+                    // get the values from this row:
+                    var $val1 = $('.val1', this).val();
+                    var $val2 = $('.val2', this).val();
+                    var $total = ($val1 * 1) * ($val2 * 1)
+                    $('.multTotal', this).text($total);
+                    mult += $total;
+                });
+                $("#grandTotal").text(mult);
+            }
+
+
+
+            //var previousPath = document.referrer;
+            //var pp = previousPath.length;
+            //var productId = previousPath.substring(26, pp);
+            //alert(productId);
+
+    });
+
+    function ApplyToBid() {
+        alert(findCurrentUnit);
+        var actualQuantity = parseFloat($("#txtProposedQty").val());
+      
+        if (findCurrentUnit == "Ton" && $("#ddlUnit").val() == "Kg"){
+          var qty= actualQuantity/1000;
+        }
+        else if (findCurrentUnit == "Kg" && $("#ddlUnit").val() == "Ton") {
+            var qty = actualQuantity * 1000;
+        }
+       
+
+            var paths = window.location.pathname;
+            var pt = paths.length;
+            var Id = paths.substring(26, pt);
+            var jsonApplyBidRequest = {
+                Price: $("#txtProposedPrice").val(),
+                Quantity: qty,
+                Msg: $("#txtMsg").val(),
+                BidId: Id,
+                ProductUnit: $("#ddlUnit").val(),
+                UserIdentityToken: '@Html.Encode(HttpContext.Current.User.Identity.GetUserId())',
+            }
+        alert("Are you sure want to submit");
+        $.ajax({
+            url: '/api/Bid/CreateApplyToBid',
+            type: 'POST',
+            cache: false,
+            async: true,
+            data: JSON.stringify(jsonApplyBidRequest),
+            dataType: 'json',
+            contentType: 'application/json;charset-utf-8',
+            success: function (data) {
+                alert("Your tender successfully submitted")
+                productId = data.Bid.ProductId;
+                window.location.href = "/Home/GetBidByProduct/" + productId;
+                //alert(findCurrentUnit);
+            },
+            error: function (r) {
+                var jsonError = JSON.stringify(r);
+                alert(jsonError,"Sorry,You have already applied to this Tender");
+            }
+        });
+    }
+
+</script>
+
+
+
+<div class="col-lg-12">
+    <div id="appliedBidsHtml">
+        <div class="row">
+            <h3>Tender  details</h3>
+            <hr />
+            <table class='table table-bordered customerIDCell tableFont' id='companyBidHtml'>
+                <thead>
+                    <tr>
+                        <td><b>Tender Id</b></td>
+                        <td><b>Company Name</b></td>
+                        <td><b>Product Name</b></td>
+                        <td><b> Price</b></td>
+                        <td><b>Quantity</b></td>
+                        <td><b>Unit</b></td>
+                        <td><b>Amount</b></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="row">
+            <h3>You can comments your proposed price</h3>
+            <hr />
+            <div class="col-lg-8">
+                <form id="frmApplyTenderForm" class="form-horizontal">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>
+                                <p class="text-info">Price</p>
+                            </td>
+                            <td>
+                                <p class="text-info">Quantity</p>
+                            </td>
+                            <td>
+                                <label class="col-md-4 control-label">Unit</label>
+                            </td>
+                            <td>
+                                <label class="col-md-4 control-label">Total Taka</label>
+                            </td>
+                        </tr>
+                        <tr class="txtMult">
+                            <td>
+                                <div class="input-group">
+                                    <input name="qty" placeholder="0.00" class="form-control currency val1" id="txtProposedPrice" type="text" />
+                                    <span class="input-group-addon">৳</span>
+                                </div>
+                            </td>
+                            <td>
+                                <input name="qty" placeholder="0.00" class="form-control val2" id="txtProposedQty" type="text" />
+                            </td>
+                            <td>
+                                @*<div id="tableDiv" class="dropdown">
+                                        <button id="tableButton" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                            Table
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul id="tableMenu" class="dropdown-menu">
+                                            <li><a href="#">Kg</a></li>
+                                            <li><a href="#">Ton</a></li>
+                                            <li><a href="#">Lot</a></li>
+                                            <li><a href="#">PC</a></li>
+                                        </ul>
+                                    </div>*@
+                                <select id="ddlUnit">
+                                    <option value="Kg">Kg</option>
+                                    <option value="PCs">PCs</option>
+                                    <option value="Ton">Ton</option>
+                                    <option value="Lot">Lot</option>
+                                </select><span class="caret"></span>
+                            </td>
+                            <td>
+                                <span class="multTotal">0.00</span> ৳
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p class="text-info">Your message</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <textarea name="msg" placeholder="Enter your message here" class="form-control" id="txtMsg"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <button type="button" class="btn btn-info" onclick="JavaScript: ApplyToBid()">Submit</button>
+                                <button id="btnCancel" type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*<script type="text/html" id="bidDetailsTemp">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td><b>Bid Code</b></td>
+                    <td><b>Company Name</b></td>
+                    <td><b>Product Name</b></td>
+                    <td><b> Price</b></td>
+                    <td><b>Quantity</b></td>
+                    <td><b>Amount</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        {$T.Id}
+                    </td>
+                    <td>
+                        {$T.CompanyName}
+                    </td>
+
+                    <td>
+                        {$T.ProductName}
+                    </td>
+                    <td>
+                        {$T.PriceCurrency}
+                    </td>
+                    <td>
+                        {$T.NetQuantity} {$T.ProductUnit}
+                    </td>
+                    <td>
+                        {$T.AmountCurrency}
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </script>*@
