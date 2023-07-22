@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model.Payments" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Transaction" table="Transactions" lazy="false" >
+   
+    <id name="Id" column="TransactionID" unsaved-value="0">
+      <generator class="native" />
+    </id>
+   
+
+    <many-to-one name="Payment" access="field.camelcase-underscore"
+                 class="alamapp.Model.Payments.Payment"
+                 column="PaymentID"
+                 not-null="false"
+					  />
+    <many-to-one name="Company" access="field.camelcase-underscore"
+                class="alamapp.Model.Company"
+                column="CompanyID"
+                 cascade="none"
+                not-null="false"
+					  />
+    
+    <property access="field.camelcase-underscore" name="Balance">
+      <column name="Balance" sql-type="int" not-null="false" />
+    </property>
+   
+  </class>
+</hibernate-mapping>

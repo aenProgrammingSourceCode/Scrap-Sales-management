@@ -1,0 +1,30 @@
+﻿<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model.Customers" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="DeliveryAddress" table="DeliveryAddress" lazy="false" >
+    <id  name="Id" column="DeliveryID"  type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="Name">
+      <column name="ContactPersonName" sql-type="nvarchar" not-null="false" />
+    </property>
+
+    <property name="Phone">
+      <column name="PhoneNo" sql-type="nvarchar" not-null="false" />
+    </property>
+    
+    <property name="Address">
+      <column name="Address" sql-type="nvarchar" not-null="false" />
+    </property>
+
+
+    <property name="Relation">
+      <column name="Relation" sql-type="nvarchar" not-null="false" />
+    </property>
+
+    <many-to-one access="field.camelcase-underscore" name="Customer"
+                       class="alamapp.Model.Customers.Customer"
+                       column="CustomerID"
+                       cascade="none"
+                       not-null="true"/>
+  </class>
+</hibernate-mapping>

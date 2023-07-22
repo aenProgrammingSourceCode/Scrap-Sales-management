@@ -1,0 +1,44 @@
+﻿<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ApplyToBid" table="ApplyToBids" lazy="false" >
+    <id  name="Id" column="ApplyToBidID"  type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+ <many-to-one name="Customer" access="field.camelcase-underscore"
+                  class="alamapp.Model.Customers.Customer"
+                  column="CustomerID"
+                  not-null="true"
+					  />
+
+ <many-to-one name="Bid" access="field.camelcase-underscore"
+                  class="alamapp.Model.Bids.Bid"
+                  column="BidID"
+                  not-null="true"
+					  />
+
+ 
+    <property name="CreatedDate">
+      <column name="CreatedDate" sql-type="nvarchar" not-null="true" />
+    </property>
+    
+     <property access="field.camelcase-underscore" name="Price">
+      <column name="Price" sql-type="decimal" not-null="true" />
+    </property>
+     <property name="ProductUnit" access="field.camelcase-underscore">
+      <column name="UnitID" sql-type="nvarchar" not-null="false" />
+    </property>
+
+    <property access="field.camelcase-underscore" name="Qty">
+      <column name="Quantity" sql-type="decimal" not-null="true" />
+    </property>
+  <property name="SoldDate">
+      <column name="SoldDate" sql-type="nvarchar" not-null="true" />
+    </property>
+  <property name="IsSold">
+      <column name="IsSold" sql-type="bit" not-null="true" />
+    </property>
+  <property name="Msg">
+      <column name="Msges" sql-type="nvarchar" not-null="true" />
+    </property>  
+
+  </class>
+  </hibernate-mapping>

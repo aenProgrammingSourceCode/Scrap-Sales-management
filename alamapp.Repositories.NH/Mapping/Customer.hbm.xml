@@ -1,0 +1,27 @@
+﻿<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model.Customers" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Customer" table="Customers" lazy="false" >
+    <id  name="Id" column="CustomerID"  type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Name">
+      <column name="CustomerName" sql-type="nvarchar" not-null="false" />
+    </property>
+    
+     <property name="CreateDate">
+      <column name="CreatedDate" sql-type="nvarchar" not-null="false" />
+    </property>
+    
+   <property name="MobileNo">
+      <column name="MobileNo" sql-type="nvarchar" not-null="false" />
+    </property>
+ <property name="Address">
+      <column name="Address" sql-type="nvarchar" not-null="false" />
+    </property>
+    <many-to-one name="AspUser" access="field.camelcase-underscore"
+                  class="alamapp.Model.UserAuthentication.AspUser"
+                  column="UserIdentityToken"
+                  not-null="true"
+					  />
+
+  </class>
+</hibernate-mapping>

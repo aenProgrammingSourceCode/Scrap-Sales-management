@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model.Payments" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Payment" table="Payments" lazy="false">
+    <id  name="Id" column="PaymentID">
+      <generator class="uuid.hex" />
+    </id>
+    
+    <property name="PaymentDate">
+      <column name="PaymentDate" sql-type="datetime" not-null="false" />
+    </property>
+    <bag name="Transactions" access="field.camelcase-underscore" table="Transactions"
+            inverse="true" cascade="all-delete-orphan" lazy="true" fetch="join" >
+      <key column="PaymentID"/>
+      <one-to-many class="Transaction"></one-to-many>
+    </bag>
+  </class>
+</hibernate-mapping>
+
+
+<!--for nvarchar string primary key --><!--<generator class="uuid.hex" />-->

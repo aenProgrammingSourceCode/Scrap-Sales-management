@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="LocalUser" table="LocalUsers" lazy="false" >
+    <id  name="Id" column="LocalUserID"  type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+  <property name="Email">
+      <column name="Email" sql-type="nvarchar(150)" not-null="false" />
+    </property>
+
+    <property name="UserIdentityToken">
+      <column name="LocalUserIdentityToken" sql-type="nvarchar(150)" not-null="false" />
+    </property>
+
+    <property name="CreatedDate">
+      <column name="CreatedDate" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+  </class>
+</hibernate-mapping>

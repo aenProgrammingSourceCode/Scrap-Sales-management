@@ -1,0 +1,20 @@
+﻿<!--<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ConjunctionUser" table="Conjunctions" lazy="false" >
+    
+    <id  name="Id" column="ConjunctionID" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <many-to-one name="Company" access="field.camelcase-underscore"
+                class="alamapp.Model"
+                 cascade="none"
+                column="CompanyID"
+                not-null="true"
+					  />
+
+    <property access="field.camelcase-underscore" name="Block">
+      <column name="BlockUser" sql-type="int" not-null="true" />
+    </property>
+
+
+  </class>
+</hibernate-mapping>-->

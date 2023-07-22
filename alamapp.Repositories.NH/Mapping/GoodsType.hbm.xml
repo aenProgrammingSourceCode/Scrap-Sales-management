@@ -1,0 +1,16 @@
+﻿<hibernate-mapping assembly="alamapp.Model" namespace="alamapp.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="GoodsType" table="GoodsTypes" lazy="false" >
+    <id  name="Id" column="TypeID"  type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="Name">
+      <column name="TypeName" sql-type="nvarchar" not-null="false" />
+    </property>
+
+    <property name="CreatedDate">
+      <column name="CreatedDate" sql-type="nvarchar" not-null="false" />
+    </property>
+
+  </class>
+</hibernate-mapping>

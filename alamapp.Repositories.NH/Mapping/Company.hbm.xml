@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping  assembly="alamapp.Model" namespace="alamapp.Model" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Company" table="Companies" lazy="false" >
+    <id  name="Id" column="CompanyID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Name">
+      <column name="CompanyName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="UserName">
+      <column name="AdminUserName" sql-type="nvarchar" not-null="false" />
+    </property>
+
+    <property name="Position">
+      <column name="AdminUserPosition" sql-type="nvarchar" not-null="false" />
+    </property>
+    
+    <property name="CreateDate">
+      <column name="CreatedDate" sql-type="nvarchar" not-null="false" />
+    </property>
+
+    <many-to-one name="AspUser" access="field.camelcase-underscore"
+                  class="alamapp.Model.UserAuthentication.AspUser"
+                  column="AspNetUserID"
+                  not-null="true"
+					  />
+
+   
+  </class>
+</hibernate-mapping>
